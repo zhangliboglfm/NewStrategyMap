@@ -1,0 +1,222 @@
+.map {width: 100%;height:100%;z-index:0;}
+.back{width: 100%;height:100%;z-index:-10;position:absolute;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/echartsbackground.png',sizingMethod='scale')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/echartsbackground.png',sizingMethod='scale')";}
+/*设置地图之上悬浮的div*/
+.topside{margin-top:30px;margin-left:30px;width:420px;position:absolute;	
+/*设置悬浮，需要设置body的position为relative，设置需要悬浮的div为absolute  */z-index: 1000 !important;}
+
+.filter{background-color: #fff;height: 40px;width: 410px;padding-right:5px;position: absolute;top: 5px;left: 10px;z-index: 10 !important;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')"}
+/* 日月切换 */
+.datetype{height: 30px;width: 70px;background-color: #fff;color: #000;border: 1px solid #cae0ee;float: left;margin-top: 5px;margin-left: 5px;}
+.datetype .eachdatetype{float: left;width: 50%;height: 100%;text-align: center;line-height: 30px;cursor: pointer;}
+.datetype .cur_eachdatetype{background-color: #00AFFF;color: #fff}
+/* 地域选择 */
+.div_select{float: left;width: 80px;height: 30px;/* line-height:35px; */background-color: #fff;color: #000;margin-top: 5px;margin-left: 5px;border: 1px solid #cae0ee;z-index: 9999999;position: relative;}
+#xianquselect{width: 130px !important;}
+/*-------------------------------------------------------------------*/
+/*省或者市具体数据展示*/
+.left-second{width: 415px;background-color: #fff;position: absolute;top: 55px;left: 10px;z-index: 99990;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')";}
+.left-second-first{float:left;font-size:16px;width:405px;height:40px;line-height:40px;color:white;background:#00AFFF;padding-left:10px;border-bottom:1px solid #f0f0f0;}
+#divNiceScroll{max-height:360px;width: 415px;background-color: #fff;}
+
+ .left-second-second{float:left;width:408px;heigth:30px;line-height:30px;border-bottom:1px solid #f0f0f0;}
+.left-second-second-one{margin-left:10px;float:left;}
+.left-second-second-two{float:left;}
+.left-second-second-three{float:right;margin-right:25px;}
+.left-second-second-first{margin-left:10px;float:left;width:175px;}
+/* .getmore{cursor:pointer;} */
+ 
+ 
+/*设置导航位置*/
+.navigation{width:250px;height:190px;position:absolute;background:white;z-index:1000;bottom:5px;right:10px;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')"}
+/*书写文字 “图例” div样式*/
+.nav-first{float:left;width:240px;height:30px;line-height:30px;padding-left:10px;font-size:14px;color:white;background:#00AFFE;	}
+.nav-first .legendunit{float: right;margin-right: 5px;}
+/*设置左侧导航的位置*/
+.nav-left{float:left;margin-left:5px;margin-top:5px;width:75px;height:auto;}
+/* 全省  全市 兴趣点  位置 */
+.nav-left-first{float:left;height:130px;width:40px;margin-left:2px;}
+/*兄弟节点 全省 全市 兴趣点*/
+.province-city-point{margin-top:22px;float:left;width:40px;	text-align:center;cursor:pointer;}
+.nav-left-second{float:left;width:15px;height:130px;}
+.nav-left-third{float:left;width:10px;}
+.nav-left-third li{list-style: none;}
+/*设置右侧图例位置*/
+.nav-right{float:left;margin-left:5px;margin-top:5px;border:1px solid #cae0ee;width:158px;height:150px}
+/* 直线 iconfont放置位置 */
+.nav-left-second-one{float:left;margin-top:20px;}
+.nav-right-one{float:left;margin-top:5px;width:110px;height:45px;line-height:27px;}
+/*设置图例不同的颜色*/
+.nav-right-one-color1{float:left;width:45px;height:10px;margin-top:15px;background:rgb(255,99,71);margin-left: 5px;}
+.nav-right-one-color2{float:left;width:45px;height:10px;margin-top:15px;background:rgb(255,215,0);margin-left: 5px;}
+.nav-right-one-color3{float:left;width:45px;height:10px;margin-top:15px;background:rgb(154,205,50);margin-left: 5px;}
+.nav-right-two-second{float: left;width: 55px;margin-left: 5px;height: 20px;margin-top: 7px;}
+/*设置导航切换的颜色*/
+.setColor{color:#00AFFE;}
+.bigger,.smaller{cursor: pointer;}
+
+/*-----------------------------------地图指标筛选--------------------*/
+/* 地图指标选框 */
+.indexselect{position: absolute;z-index: 88888 !important;height: auto;width: 300px;background-color: #fff;top: 5px;left: auto;border: 1px solid #cae0ee;color: #fff;cursor: default;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')";}
+.indexselect .title{width: 100%;height: 26px;background-color: #00AFFE;line-height: 26px;text-indent: 1ex;}
+.indexselect .title span{text-indent: 1ex;font-size: 14px;}
+.indexselect .title .icon{float: right;height: 18px;width: auto;line-height: 18px;margin-top: 4px;text-align: center;;padding-right: 5px;cursor: pointer;}
+.indexselect .title .leftboder{border-right: 1px solid #fff;}
+.indexselect .title .icon i{color: #fff;font-size: 12px;cursor: pointer;margin-right: 3px;}
+.indexselect .main{width: 100%;height: auto;color: #272727;line-height: 44px;text-indent: 1ex;}
+.indexselect .main .data{float:left;width: 100%;height: 40px;border-bottom: 1px solid #cae0ee;line-height: 40px;}
+.indexselect .main .info{float:left;width: 100%;height: 24px;line-height: 24px;}
+.indexselect .main .data span.number{float: left;text-indent: 1ex;font-size: 18px !important;color: #272727;}
+.indexselect .main .data span.scale{float: right;font-size: 18px !important;margin-right: 8px;color: #272727;}
+.indexselect .main .info span.indexname{float: left;color: #272727;text-indent: 1ex}
+.indexselect .main .info i{float: right;font-size: 16px;color: #00AFFE;margin-right: 8px;cursor: pointer;}
+.indexselect .main .data span.scale i{font-size: 20px;color: #21CFB8;cursor: default;}
+
+/* 指标搜索框 */
+.searchindex{position: absolute;top:auto;left: auto;width: auto;height:auto;min-height: 30px;background-color: #fff;z-index: 88889 !important;display: none;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')";}
+.searchindex .title{width: 100%;height: 26px;background-color: #00AFFE;line-height: 26px;text-indent: 1ex;color: #fff}
+.searchindex .main{width: 100%;height: 30px;background-color:#F2FBFF;line-height: 30px;}
+.searchindex .title i{float: right;margin-right: 5px;color: #fff;font-size: 18px;cursor: pointer;}
+.searchindex .main input.indexipt{width: 85%;height: 26px;background-color: #F2FBFF;border: 0;margin-top: 1px;color: #272727;margin-left: 1%;}
+.searchindex .main i{float: right;margin-right: 2%;color: #00AFFE;font-size: 20px;cursor: pointer;}
+.searchindexresult{display:none;position: absolute;top:auto;left: auto;width: 300px;height:auto;max-height: 72px;background-color: #fff;z-index: 88889 !important;display: none;}
+.searchindexresult .boder{border-bottom: 1px dashed #cae0ee;}
+.searchindexresult .eachresult{width: 100%;height: 24px;text-align: left;text-indent: 1ex;line-height: 24px;cursor: pointer;color: #000;}
+.searchindexresult .eachresult:HOVER {color: #fff;background-color: #00AFFF}
+
+
+
+/*相关影响指标拼接div样式设置*/
+.indexConnect{float:left;width:378px;heigth:30px;line-height:30px;background:#F2FBFF;border-bottom:1px solid #f0f0f0;}
+.indexConnect-one{width:235px;margin-left:30px;float:left;}
+.indexConnect-two{float:left;}
+
+/*相关指标收起样式*/
+.cutOut{cursor:pointer;}
+
+/*设置地图提示框颜色*/
+.tooltips{height:70px;width:200px;background: #fff;}
+.tooltips-first{padding-left:10px;font-size:14px;line-height:30px;float: left;height: 30px;width:190px;background: rgb(0, 175, 255);}
+.tooltips-second{color:black;float: left;width:200px;height: 40px;}
+.tooltips-second-first{margin-left:5px;font-size:12px;line-height:40px;float:left;height: 40px;}
+.tooltips-second-second{margin-right:5px;font-size:12px;line-height:40px;float:right;height: 40px;background: #fff;}
+
+/*拼接左侧查询指标div*/
+.indexdiv .eachindexdiv{float: left;width: 100%;height: 24px;line-height: 24px;border-bottom: 1px solid #cae0ee;text-indent: 1ex;margin-top: 3px;}
+.indexdiv .eachindexdiv i{cursor: pointer;}
+.indexdiv .eachindexdiv span{cursor: default;}
+.indexdiv .eachindexdiv .signicon{float: left;cursor: default;}
+.indexdiv .eachindexdiv .indexname{float: left;}
+.indexdiv .eachindexdiv .indexvalue{float: left;}
+.indexdiv .eachindexdiv .moreicon{float: right;margin-right: 5px;color: #00AFFE}
+.indexdiv .eachindexdiv .indexrate{float: right;}
+.indexdiv .eachindexdiv .rateicon{float: right;}
+
+/* 拼接相关指标信息 */
+.moreinfodiv{float:left;width: 100%;height: auto;background-color: #D8F0FF;display: none;border-bottom: 1px solid #cae0ee}
+.moreinfodiv .reltitle{float:left;width: 100%;height: 26px;line-height: 26px;background-color: #55BCFF}
+.moreinfodiv .relmain{float:left;width: 100%;height: auto;padding-top: 3px;padding-bottom: 3px;}
+.moreinfodiv .eachrelindexdiv{float: left;width: 100%;height: 24px;line-height: 24px;}
+.moreinfodiv .reltitle i{color: #fff;cursor: pointer;}
+.moreinfodiv .reltitle span{float: left;font-size: 14px;color: #fff;}
+.moreinfodiv .reltitle span.curindexname{text-indent: 1ex;}
+.moreinfodiv .reltitle .addindex{float: right;color: #fff;margin-right: 5px;}
+.moreinfodiv .relmain .eachrelindexdiv{width: 100%;height: 24px;line-height: 24px;text-indent: 5px;text-indent: 2ex;}
+.moreinfodiv .relmain .eachrelindexdiv i{cursor: pointer;}
+.moreinfodiv .relmain .eachrelindexdiv span{cursor: default;}
+.moreinfodiv .relmain .eachrelindexdiv .indexname{float: left;}
+.moreinfodiv .relmain .eachrelindexdiv .indexvalue{float: left;}
+.moreinfodiv .relmain .eachrelindexdiv .indexrate{float: right;margin-right: 5px;}
+.moreinfodiv .relmain .eachrelindexdiv .rateicon{float: right;}
+
+/* 当前地图指标相关指标信息 */
+.curmaprelindexinfo{
+	width: 300px;
+	position: absolute;
+	top: 100px;
+	left: :500px;
+	z-index: 999999;
+	border: 1px solid #cae0ee;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')";
+	display: none;
+}
+.curmaprelindexinfo .title{width: 100%;height: 28px;background-color: #55BCFF;line-height: 28px;text-indent: 1ex;color: #fff}
+.curmaprelindexinfo .main{width: 100%;height: auto;max-height: 75px;background-color: #D8F0FF}
+.curmaprelindexinfo .title i{float: right;margin-right: 5px;cursor: pointer;}
+.curmaprelindexinfo .main .eachrelindexdiv{width: 100%;height: 24px;line-height: 24px;border-bottom:1px solid #cae0ee;text-indent: 2ex;}
+.curmaprelindexinfo .main .eachrelindexdiv i{cursor: default;}
+.curmaprelindexinfo .main .eachrelindexdiv span{cursor: default;}
+.curmaprelindexinfo .main .eachrelindexdiv .indexname{float: left;}
+.curmaprelindexinfo .main .eachrelindexdiv .indexvalue{float: left;}
+.curmaprelindexinfo .main .eachrelindexdiv .indexrate{float: right;margin-right: 5px;}
+.curmaprelindexinfo .main .eachrelindexdiv .rateicon{float: right;}
+
+.defaultallinfo .titlediv{float:left;width: 100%;height: auto;}
+.indexdiv{float:left;width: 100%;max-height: 280px;}
+.otherdiv{float:left;width: 100%;height: 70px;}
+.regiontitle i{float: left;font-size: 16px;line-height: 32px;}
+.regiontitle span{font-size: 16px}
+.indexdiv .eachindexdiv{float: left;width: 100%;height: 24px;line-height: 24px;border-bottom: 1px solid #cae0ee;text-indent: 1ex;margin-top: 3px;}
+.indexdiv .eachindexdiv i{cursor: pointer;}
+.indexdiv .eachindexdiv span{cursor: default;}
+.indexdiv .eachindexdiv .signicon{float: left;cursor: default;}
+.indexdiv .eachindexdiv .indexname{float: left;}
+.indexdiv .eachindexdiv .indexvalue{float: left;}
+.indexdiv .eachindexdiv .moreicon{float: right;margin-right: 5px;color: #00AFFE}
+.indexdiv .eachindexdiv .indexrate{float: right;}
+.indexdiv .eachindexdiv .rateicon{float: right;}
+
+/* 添加关联指标 */
+.addrelindex{position: absolute;top: 0;left: 0px;width: 800px;height: 500px;background-color: #fff;border: 1px solid #cae0ee;z-index: 9999999;display: none;}
+.addrelindex .title{float: left;height: 30px;width: 100%;color: #fff;background-color: #00AFFF;text-indent: 1ex;line-height: 30px;cursor: default;font-size: 14px;}
+.addrelindex .title i{float: right;margin-right: 10px;font-size: 18px;cursor: pointer;}
+.addrelindex .main{float: left;height: 470px;width: 800px;}
+.addrelindex .main iframe {width: 100%;height: 100%;border: 0px;}
