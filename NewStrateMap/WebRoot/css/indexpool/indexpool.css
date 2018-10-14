@@ -1,0 +1,36 @@
+.main{width: 98%;height: 97%;margin-left: 1%;margin-top: 1%;}
+.top{float: left;width: 100%;height: 50px;}
+.grid{float: left;width: 100%;height: auto;border: 1px solid #E0E5DF;}
+/* 查询选框 */
+.top .querytype{float:left;width: 140px;height: 30px;margin-top: 6px;margin-left:10px;border: 1px solid #cae0ee;}
+/* 搜索框 */
+.top .search{float:left;width: 300px;height: 30px;margin-top: 6px;margin-left:5px;border: 1px solid #cae0ee;}
+.top .search input{height: 26px;margin-top: 1px;border: 0;width: 97%;margin-left: 1%;font-size: 12px;line-height: 26px;}
+/* 查询按钮 */
+.top .searchbnt{
+	float: left;
+	height: 30px;
+	margin-top: 6px;
+	margin-left: 5px;
+	width: 80px;
+	border: 1px solid #cae0ee;
+	cursor: pointer;
+	background-color: #00AFFF;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+}
+.top .searchbnt i{margin-right: 5px;font-size: 16px;}
+/* 表格 */
+.grid .tab-title{width: 100%;height: 30px;}
+.grid .tab-main{width: 100%;height: 100%;}
+.tab{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+.tab td{border-right: 1px solid #E0E5DF;text-align: center;}
+.tab thead tr td{height: 30px;font-size: 14px;background-color: #9AC2FF;color: #272727}
+.tab tbody tr td{height: 30px;font-size: 12px;}
+.tab .noboder{border-right:0px;}

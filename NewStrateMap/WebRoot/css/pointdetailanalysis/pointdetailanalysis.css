@@ -1,0 +1,78 @@
+html{width: 100%;height: 100%;}
+body {width: 100%;height: 100%;overflow: hidden;margin: 0;padding: 0;background-color:#E4F2F5}
+
+.maxDiv{
+	width: 100%;
+	height: 100%;
+	padding:10px;
+}
+.first{
+	float:left;
+	width: 385px;
+	height: 220px;
+	background: white;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')"
+}
+.first-one{
+	float:left;
+	height:30px;
+	width:385px;
+	line-height:30px;
+	border-bottom:1px solid #DCDCDC;
+}
+.first-two{
+	float:left;
+	height:190px;
+	width:385px;
+}
+
+.second{
+	float:left;
+	margin-left:10px;
+	width: 385px;
+	height: 220px;
+	background: white;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')"
+}
+.third{
+	margin-top:10px;
+	float:left;
+	width: 780px;
+	height: 220px;
+	background: white;
+	/* For IF9 Or opera */
+	box-shadow:5px 5px 5px #BFD2D6;
+	/* For FireFox */
+	-moz-box-shadow:5px 5px 5px #BFD2D6;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:5px 5px 5px #BFD2D6;
+	/* For IE8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5,Direction=135,Color='#BFD2D6')"
+}
+
+.third-one{
+	float:left;
+	height:30px;
+	width:780px;
+	line-height:30px;
+	border-bottom:1px solid #DCDCDC;
+}
+.third-two{
+	float:left;
+	height:190px;
+	width:780px;
+}

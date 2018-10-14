@@ -1,0 +1,15 @@
+/* ÈÕÆÚÇÐ»» */
+.div_datepiker{
+	float: left;
+	width: 100px;
+	height: 30px;
+	background-color: #fff;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px solid #cae0ee;
+	line-height: 30px;
+	cursor: pointer;
+	position: relative;
+}
+.div_datepiker input{float: left;height: 26px;width: 70px;border: 0px;margin-left: 5px;margin-top: 1px;cursor: default;line-height: 26px;}
+.div_datepiker i{float: right;margin-right: 5px;color: #00AFFF;font-size: 18px !important}
