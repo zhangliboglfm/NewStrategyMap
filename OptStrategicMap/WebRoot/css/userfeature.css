@@ -1,0 +1,64 @@
+/*页面标题部分*/
+.main .top{width: 100%;height: 50px;line-height: 50px;position:relative;
+	background: linear-gradient(to right,#1D8DFD,#29CAFE);
+	background: -o-linear-gradient(right,#1D8DFD,#29CAFE);
+	background: -moz-linear-gradient(right,#1D8DFD,#29CAFE);
+	background: -webkit-linear-gradient(left,#1D8DFD,#29CAFE);
+}
+.main .top .maintitle{color:white;height: 50px;margin-left:20px;}
+.main .top .maintitle .iconfont1{font-size:36px;height:50px;line-height:50px;display: block;float: left;}
+.main .top .maintitle .keyeareName{font-size:20px;margin-left:10px;height:50px;line-height:50px;display:block;float: left;}
+.main .top .maintitle .userfeature{font-size: 22px;margin-left: 15px;padding-left: 15px;border-left: 1px solid white;}
+/*升降潜在流失预警导航*/
+.main .top .topnav{width: 364px;height: 50px;z-index: 10;top:0px;position: absolute;}
+.main .top .topnav .onenav{float: left;width: 90px;height:10px;margin-top:20px;line-height:10px;font-size:16px;color:white;border-left:1px solid white;text-align: center;cursor: pointer;}
+.main .top .topnav .onenav:nth-child(1){border:0px;}
+.main .top .topnav .curnav{color:#05FFF7}
+
+/*时间段选择*/
+.main .top .dateSelect{width: 340px;height: 20px;position: absolute;z-index: 10;top:15px;right:20px;}
+.dateSelect .datetypediv{float: left;width: 60px;height: 20px;border: 1px solid white;line-height: 30px;font-size: 14px;margin-right: 15px;}
+.dateSelect .datetypediv .typediv{float: left;width: 30px;height: 20px;text-align: center;line-height: 20px;cursor: pointer;color: white;}
+.dateSelect .datetypediv .curdiv{background-color: white;color: #25B1FE !important;}
+.dateSelect .datediv{float:left;height: 20px;border: 1px solid white;line-height: 20px;}
+.dateSelect .datediv input {border: 0px;background-color: transparent;text-indent: 1ex;font-size: 14px;color: #fff;cursor: pointer;height: 20px;line-height:20px;width: 90px;margin-right: 5px;outline-style: none;}
+.dateSelect .datediv i{float: right;color: white;font-size: 16px;margin-right: 5px;cursor: pointer;}
+.dateSelect .splitdiv{float: left;height: 20px;line-height: 20px;cursor: default;color: white;text-align: center;padding-left: 5px;padding-right: 5px;font-weight: bold;font-size: 14px;}
+
+/*页面下方内容*/
+.main .bottom{width: 99%;margin-left: 0.5%;}
+.main .bottom .basicSquare{width: 24%;margin-top:10px;margin-left:0.5%;margin-right:0.5%;float: left;background: #FBFCFF;}
+.main .bottom .basicSquare .title{width: 100%;height: 30px;font-size: 16px;}
+.main .bottom .basicSquare .title i{float: left;margin-left: 10px;height: 30px;line-height:30px;display: block;}
+.main .bottom .basicSquare .title span{float:left;height: 30px;line-height:30px;font-size: 16px;display: block;text-indent: 5px;}
+.main .bottom .basicSquare .squareContent{background:rgba(0,0,0,0.1);}
+.main .bottom .basicRect{width: 32.3333%;margin-top:10px;margin-left:0.5%;margin-right:0.5%;float: left;background: #FBFCFF;}
+.main .bottom .basicRect .title{width: 100%;height: 30px;font-size: 16px;}
+.main .bottom .basicRect .title i{float: left;margin-left: 10px;height: 30px;line-height:30px;display: block;}
+.main .bottom .basicRect .title span{float:left;height: 30px;line-height:30px;font-size: 16px;display: block;text-indent: 5px;}
+.main .bottom .basicRect .rectContent{background:rgba(0,0,0,0.1);}
+
+/*最下方表格*/
+.main .bottom .theLast{width: 99%;margin-top:10px;margin-left: 0.5%;height:280px;float:left;background: #FBFCFF;}
+.main .bottom .theLast .title{width: 100%;height: 40px;font-size: 16px;}
+.main .bottom .theLast .title i{float: left;margin-left: 10px;height: 40px;line-height:40px;display: block;}
+.main .bottom .theLast .title span{float:left;height: 40px;line-height:40px;font-size: 16px;display: block;text-indent: 5px;}
+.main .bottom .theLast .title .tableDownLoad{float:right;margin-right:10px;margin-top:10px;height:20px;line-height:20px !important;font-size:14px;background: #009CFF;color: white;border-radius:5px;cursor: pointer;}
+table {
+    border-collapse: collapse;
+}
+/*表头设置*/
+.main .bottom .theLast .tabletitle{width:99%;height: 40px;margin-left: 0.5%;background: #A7DCFE;border: 1px solid #53B9FF;border-bottom:0px;box-sizing:border-box;}
+.tabletitle .table1{width: 100%;height: 100%;}
+.tabletitle .table1 tr{width: 100%;height: 100%;}
+.tabletitle .table1 tr th{width: 20%;height: 100%;padding: 0;margin: 0;font-size: 14px;}
+.tabletitle .table1 tr th div{width: 100%;border-right:1px solid #53B9FF;}
+/*表格内容*/
+.main .bottom .theLast .tablecontent{width:99%;height: 200px;max-height:200px;margin-left: 0.5%; border: 1px solid #53B9FF;border-top:0px;box-sizing:border-box;}
+.tablecontent .table2{width: 100%;}
+.tablecontent .table2 tr{width: 100%;}
+.tablecontent .table2 .hascolor{background: #E7F3FF;}
+.tablecontent .table2 tr td{width: 20%;height: 40px;font-size: 14px;text-align: center;padding: 0;margin: 0;}
+
+
+

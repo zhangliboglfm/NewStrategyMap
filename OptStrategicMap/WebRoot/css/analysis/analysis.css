@@ -1,0 +1,205 @@
+/*左侧导航部分*/
+.left{width:120px;height:100%;position: absolute;z-index:40;border-top:1px solid #5EAEFE;box-sizing:border-box;
+	background: linear-gradient(to top,#1D8DFD,#29CAFE);
+	background: -o-linear-gradient(top,#1D8DFD,#29CAFE);
+	background: -moz-linear-gradient(top,#1D8DFD,#29CAFE);
+	background: -webkit-linear-gradient(top,#1D8DFD,#29CAFE);
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 5px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 5px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 5px gray;
+}
+.left .switchleftnav{width: 30px;height: 100px;right:-32px;line-height:100px;background:#FDFDFC;cursor:pointer;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 10px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 10px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 10px gray;
+	position: absolute;}
+
+.iconfont1{
+	font-size: 14px;
+}
+.iconfont2{
+	font-size: 12px !important;
+}
+
+/*查询结果div*/
+.queryresultdiv{height: 30px;
+	left:142px;background:#FDFDFC;top:20px;line-height:30px;padding:10px 10px;font-size: 16px;color: #424242;
+	z-index:40;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 10px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 10px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 10px gray;
+	position: absolute;
+}
+.queryresultdiv .sp_num{font-size: 24px;color: #00A0E8}
+
+
+/*左侧标题部分*/
+.left .explain{margin: 15px 10px;width: 100px;height: 40px; color:white;font-size: 16px;line-height: 30px;text-align: center;}
+/*左侧导航部分*/
+.left .divParentNav{width:100%;}
+.left .divParentNav .leftnav{width:100px;height: 70px;color: white;text-align: center;margin-bottom: 20px;margin-left:10px;overflow: hidden;}
+.left .divParentNav .leftnav:hover{cursor: pointer;color:#05EFDF}
+.left .divParentNav .leftnavcur{color:#05EFDF}
+.left .divParentNav .leftnav .leftnavicon{width:100px;height:30px;font-size: 14px;line-height: 30px;}  
+.left .divParentNav .leftnav .leftnavtitle{width:100px;height:40px;font-size: 14px;display:table-cell;vertical-align: middle;}  
+
+/*底部指标筛选*/
+.main .bottom{height:250px;background:#FEFEFE;z-index:40;position: absolute;bottom: 0px;right:0px;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 5px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 5px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 5px gray;}
+.bottom .switchBottom{width: 100px;height: 30px;top:-32px;line-height:30px;background:#FDFDFC;cursor:pointer;text-align:center;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 10px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 10px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 10px gray;position: absolute;}
+.bottom .FilterAndRender{width: 50%;height:240px;margin-top:5px;border-right:1px solid #D9D9D9;box-sizing:border-box;float: left;}
+.bottom .FilterAndRender .title{width:90%;height:40px;line-height:40px;color:black;margin-left: 5%;border-bottom: 1px solid #D9D9D9;box-sizing:border-box;}
+.bottom .FilterAndRender .title .titleRight{width:60px;margin-top:10px;height:20px;line-height:20px;text-align:center;color:white;font-size:14px;background:#009CFF;border-radius:5px;cursor:pointer;display: inline-block;float: right;}
+.bottom .FilterAndRender .title .renderIndex{width:auto;margin-top:10px;margin-right:5px;height:20px;line-height:20px;text-align:center;color:#009CFF;font-size:14px;display:inline-block;float: right;}
+.bottom .FilterAndRender .IndexAndRange{width: 90%;height:165px;margin-left: 5%;max-height: 165px;}
+
+.IndexAndRange .divAdd{width: 100%;height: 40px;text-align: center;}
+.IndexAndRange .div-last{width: 100%;height: 40px;text-align: center;}
+.IndexAndRange .div-last .buttonSpan{margin:0 auto;width:150px;margin-top:5px;background: #009CFF;height:30px;	color: white;line-height: 30px;	border-radius: 10px;cursor: pointer;}
+.divAdd .IndexName{float: left;width:35%;height:20px;margin-top:10px;}
+.divAdd .IndexRange{float: left;margin-left:2%;width:15%;height: 30px;margin-top:4px;border:1px solid #32ADFB;line-height:30px;background:#EFEFEF;text-align:center;font-size:14px;overflow: hidden;white-space: nowrap;}
+.divAdd .RenderLine{float: left;margin-left:2%;width:5%;height:19px;border-bottom:2px solid #0094FF;}
+.divAdd .buttonDelete{float: left;height:30px;margin-top:5px;line-height:30px;margin-left:5%;cursor: pointer;}
+.divAdd .buttonDelete i{color:#32ADFB;font-size:24px;}
+
+.bottom .FilterAndRender .ActionButton{width: 90%;height:30px;text-align: center;margin-left: 5%;}
+.bottom .FilterAndRender .ActionButton .ActionSpan{width:60px;margin-top:5px;height:20px;line-height:20px;text-align:center;color:white;font-size:14px;	background:#009CFF;border-radius:5px;cursor:pointer;display: inline-block;}
+
+/*render渲染颜色部分*/
+.IndexAndRange .oneRender{width: 45%;height: 50px;margin:0 2.5%;margin-top:5px;float: left;}
+.IndexAndRange .oneRender .RenderColor{float: left;width:15%;height:20px;margin-top:15px;margin-left:5%;}
+.IndexAndRange .oneRender .RenderColor1{background:#1E4AAD;}
+.IndexAndRange .oneRender .RenderColor2{background:#077CFF;}
+.IndexAndRange .oneRender .RenderColor3{background:#3386BC;}
+.IndexAndRange .oneRender .RenderColor4{background:#4690E5;}
+.IndexAndRange .oneRender .RenderColor5{background:#75B6E0;}
+.IndexAndRange .oneRender .RenderNum{float: left;width:25%;height: 36px;margin-top:5px;border:1px solid #32ADFB;line-height:35px;margin-left:5%;background:#EFEFEF;text-align:center;font-size:14px;overflow: hidden;white-space: nowrap;}
+.IndexAndRange .oneRender .RenderLine{float: left;width:10%;height:24px;margin-left:5%;border-bottom:2px solid #0094FF;}
+
+
+/*图例部分*/
+.main .rightbottom{width:260px;;height:170px;bottom:5px;right:5px;border: 1px solid #03A1EA;z-index:35;background:#FFFFFF;position: absolute;}
+.main .rightbottom .title{width:100%;;height:50px;line-height: 50px;text-align:center;color:white;background:#27BAFF;font-size:16px;border-bottom: 1px solid #03A1EA;box-sizing:border-box;}
+.divSave .title i{float: right;margin-right:10px;font: 15px;color: white;cursor: pointer;}
+.main .rightbottom .tulicontent{width:100%;height:120px;}
+.main .rightbottom .tulicontent .onpart{width:50%;height:40px;float: left;}
+.main .rightbottom .tulicontent .onpart .tulicolor{width:30px;height:20px;margin-top:10px;margin-left:10px;float: left;}
+.main .rightbottom .tulicontent .onpart .tuliRange{width:80px;height:40px;float: left;line-height:40px;margin-left:10px;overflow: hidden;font-size:12px;}
+.main .rightbottom .tulicontent .onpart .tulicolor1{background:#1E4AAD;}
+.main .rightbottom .tulicontent .onpart .tulicolor2{background:#077CFF;}
+.main .rightbottom .tulicontent .onpart .tulicolor3{background:#3386BC;}
+.main .rightbottom .tulicontent .onpart .tulicolor4{background:#4690E5;}
+.main .rightbottom .tulicontent .onpart .tulicolor5{background:#75B6E0;}
+
+
+/*地域选择 日期 搜索框*/
+.main .selectdiv{z-index: 40;position: absolute;top:20px;right: 20px;height: 30px;background-color: rgba(255,255,255,0.9);padding: 10px 10px;line-height: 30px;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 5px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 5px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 5px gray;
+}
+.main .selectdiv .regiondiv{float: left;height: 30px;margin-right: 15px;}
+.main .selectdiv .regiondiv i.iconfont{float: left;font-size: 24px;color: #03ACFD;cursor: default;}
+.main .selectdiv .regiondiv div.regionselect{float: left;height: 30px;line-height: 30px;margin-left: 10px;cursor: pointer;font-size: 16px;}
+.main .selectdiv .datetypediv{float: left;width: 80px;height: 30px;border: 1px solid #01ABFF;line-height: 30px;font-size: 14px;margin-right: 15px;}
+.main .selectdiv .datetypediv .typediv{float: left;width: 40px;height: 30px;text-align: center;line-height: 30px;cursor: pointer;color: #01ABFF}
+.main .selectdiv .datetypediv .curdiv{background-color: #01ABFF;color: #fff !important;}
+.main .selectdiv .datediv{float:left;height: 30px;border: 1px solid #01ABFF;line-height: 30px;}
+.main .selectdiv .datediv input {border: 0px;background-color: transparent;text-indent: 1ex;font-size: 16px;color: #000;cursor: pointer;height: 30px;width: 110px;margin-right: 5px;outline-style: none;}
+.main .selectdiv .datediv i{float: right;color: #00AAFF;font-size: 20px;margin-right: 5px;cursor: pointer;}
+.main .selectdiv .splitdiv{float: left;height: 30px;line-height: 30px;cursor: default;color: #01ABFF;text-align: center;padding-left: 5px;padding-right: 5px;font-weight: bold;}
+.main .selectdiv .searchdiv{float:left;margin-left:15px;height: 30px;line-height: 30px;border: 1px solid #01ABFF;}
+.main .selectdiv .searchdiv input {border: 0px;background-color: transparent;text-indent: 1ex;font-size: 16px;color: #424242;cursor: pointer;height: 30px;width: 160px;margin-right: 5px;outline-style: none;font-family: "Microsoft YaHei";font-size: 14px;margin-left: 5px;}
+.main .selectdiv .searchdiv i{float: right;color: #00AAFF;font-size: 20px;margin-right: 5px;cursor: pointer;}
+
+/*我的分析*/
+.main .myAnalysis{top:80px;right: 20px;width: 350px;height: 130px;background: #FDFDFD;position: absolute;z-index: 35;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 5px gray;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 5px gray;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 5px gray;}
+.main .myAnalysis .title{height:30px;line-height: 30px;color: white;background: #009FE9;font-size: 16px;text-indent: 10px;}
+.main .myAnalysis .analyContent{height:100px;width:100%;max-height:100px;font-size: 14px;}
+.main .myAnalysis .analyContent .oneAnaly{height:50px;width:100%;}
+.main .myAnalysis .analyContent .oneAnaly .divOrder{width:20px;height:20px;line-height:20px;border-radius:10px;float: left;color:white;text-align:center;background: #00A0E9;margin: 15px 5px 15px 15px;}
+.main .myAnalysis .analyContent .oneAnaly .divAnalyName{height:50px;width:160px;text-indent:5px;line-height:50px;color:black;float: left;overflow: hidden;}
+.main .myAnalysis .analyContent .oneAnaly .divEdit{height:20px;width:60px;text-align:center;border-radius:5px;line-height:20px;color:white;float: left;background: #00A0E9;margin: 15px 7px;cursor: pointer;} 
+.main .myAnalysis .analyContent .oneAnaly .divClear{height:20px;width:60px;text-align:center;border-radius:5px;line-height:20px;color:white;float: left;background: #00A0E9;margin: 15px 7px;cursor: pointer;} 
+
+
+/*获取所有查询指标*/
+.main .getAllIndex{left:150px;top:50px;width:640px;height:385px;background:white;border:1px solid #01ABFF;position: absolute;z-index:9999;display: none;}
+.getAllIndex .title{height:45px;background: #01ABFF;color: white;font-size: 16px;line-height: 45px;text-indent: 10px;}
+.getAllIndex .title I{display: block;font-size: 18px;float: right;margin-right: 10px;}
+.getAllIndex .IndClassAndSear{height: 45px;	}
+.IndClassAndSear .IndClass{width:365px;height: 35px;margin-left:30px;margin-top:5px;border: 1px solid #01ABFF;line-height: 35px;font-size: 14px;float: left;}
+.IndClassAndSear .IndClass span{float: left;width: 60px;height: 35px;text-align: center;border-right:1px solid #01ABFF; }
+.IndClassAndSear .IndClass span:hover{background:#01ABFF;color: white;  }
+.IndClassAndSear .IndClass .span-last{border:0px;}
+.IndClassAndSear .IndClass .hasSelected{background:#01ABFF;color: white;}
+.IndClassAndSear .IndSearch{width:180px;height: 35px;margin-top:5px;margin-right:30px;border: 1px solid #01ABFF;line-height: 35px;font-size: 14px;float: right;}
+.IndClassAndSear .IndSearch input{border: 0px;background-color: transparent;text-indent: 1ex;font-size: 16px;color: #000;cursor: pointer;height: 30px;width: 150px;margin-right: 5px;outline-style: none;}
+.IndClassAndSear .IndSearch i{font-size: 18px;color: #01ABFF;}
+.getAllIndex .tableContent{width:620px;margin-left:8px;margin-top:5px;border: 1px solid #EAEAEA;height: 280px;}
+.tableContent .tableTitle{width: 100%;height: 40px;}
+table{border-collapse:collapse;}
+.tableContent .tableTitle .table1,.tableContent .tableTitle .table1 tr{width: 100%;height: 100%;text-align: center;background: #BDE5FF;font-size: 14px;}
+.table1 tr td{border: 1px solid #EAEAEA;}
+.table1 tr td:nth-child(1){width: 150px;}
+.table1 tr td:nth-child(2){width: 340px;}
+.table1 tr td:nth-child(3){width: 60px;}
+.table1 tr td:nth-child(4){width: 70px;}
+.tableContent .indexTable{width:100%;height: 240px;max-height: 240px;}
+.tableContent .indexTable .table2{width:100%;text-align: center;font-size: 12px;}
+.tableContent .indexTable .table2 tr{height:40px;}
+.tableContent .indexTable .table2 .trcolor{background: #F7FBFE}
+.table2 tr td{border: 1px solid #EAEAEA;height: 40px;}
+.table2 tr td:nth-child(1){width: 150px;}
+.table2 tr td:nth-child(2){width: 340px;}
+.table2 tr td:nth-child(3){width: 60px;}
+.table2 tr td:nth-child(4){width: 70px;}
+.table2 tr td .divAddIndex{width:70px;height:40px;line-height:40px;color: #01ABFF;cursor: pointer;}
+
+
+/*获取渲染指标*/
+.main .getAllIndex1{right:150px;top:50px;width:640px;height:385px;background:white;border:1px solid #01ABFF;position: absolute;z-index:9999;display: none;}
+.getAllIndex1 .title{height:45px;background: #01ABFF;color: white;font-size: 16px;line-height: 45px;text-indent: 10px;}
+.getAllIndex1 .title I{display: block;font-size: 18px;float: right;margin-right: 10px;}
+.getAllIndex1 .IndClassAndSear{height: 45px;}
+.IndClassAndSear .IndClass .hasRenderSelected{background:#01ABFF;color: white;}
+
+/*场景保存部分*/
+.main .divSave{top:50px;width:300px;height:400px;background:white;border:1px solid #01ABFF;z-index:9999;	position: absolute;display: none; }
+.divSave .title{height: 40px;background: #01ABFF;color: white;line-height: 40px;font-size: 16px;text-indent: 5px;}
+.divSave .oneline{height: 40px;}
+.divSave .oneline .name{float: left;height: 30px;line-height: 30px;margin: 5px;font-size: 15px;width:80px;text-align: center;}
+.divSave .oneline .name1{float: left;	height: 30px;line-height: 30px;margin: 5px;font-size: 15px;width:70px;}
+.divSave .oneline .divcontext{float: left;width:195px;height: 30px;line-height: 30px;border:1px solid #01ABFF;margin: 4px;font-size: 13px;text-align: center;}
+.divSave .textarea {width:280px;height: 200px;margin-left:8px;border: 1px solid #EAEAEA;font-size: 13px;}
+.divSave .buttonline {height: 40px;text-align: center;	}
+.divSave .buttonline .divButton {display:inline-block;width:35px;height: 20px;	font-size:12px;border-radius: 5px;line-height:20px;color: white;margin:10px;background: #01ABFF;cursor: pointer;}

@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebRoot/css/miapsoft.orgchart.css=UTF-8
+<<<<<<< .mine
+encoding//WebRoot/index.jsp=UTF-8
+=======
+encoding//src/com/miapsoft/controller/RegionController.java=UTF-8
+>>>>>>> .r13641
+encoding//src/com/miapsoft/filter/AntiXssFilter.java=UTF-8
+encoding//src/com/miapsoft/test/TestBatchUpdate.java=UTF-8
+encoding//src/com/miapsoft/test/TestJson.java=UTF-8
+encoding//src/com/miapsoft/util/FileUtil.java=UTF-8
+encoding/<project>=UTF-8

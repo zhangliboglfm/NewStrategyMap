@@ -1,0 +1,81 @@
+span{cursor: default;}
+.mainnav{
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(to right,#1D8DFD,#29CAFE);
+	background: -o-linear-gradient(right,#1D8DFD,#29CAFE);
+	background: -moz-linear-gradient(right,#1D8DFD,#29CAFE);
+	background: -webkit-linear-gradient(left,#1D8DFD,#29CAFE);
+	line-height: 50px;
+}
+.ifrdiv{width: 100%;background-color: #F2F6FF;}
+.ifrdiv #ifrMain {border: 0px;width: 100%;}
+i.logo{float:left;font-size: 34px;color: #fff;margin-left: 20px;padding-right: 15px;cursor: default;}
+.title{
+	float:left;
+	font-size: 22px;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	border-left: 2px solid #fff;
+	margin-top: 10px;
+	padding-left: 15px;
+	cursor: default;
+}
+.nav{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 15px;
+}
+.nav .cnav{
+	float: left;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+}
+.nav .cnav i{float: left;margin-right: 5px;color: #fff}
+.nav .cnav#divFlux i{font-size: 28px;margin-left: 5px;}
+.nav .cnav#divTerminal i{font-size: 30px}
+.nav .cnav#divApp i{font-size: 16px;margin-left: 10px;}
+.nav .cnav#divComplaint i{font-size: 20px;margin-left: 10px;}
+.nav .cnav#divSetoff i{font-size: 24px;margin-left: 10px;}
+.nav .cnav#divNet i{font-size: 20px;margin-left: 10px;}
+
+.nav .onav{
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	cursor: pointer !important;
+}
+.nav .onav .topicon{
+	width: 100px;
+	height: 24px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 3px;
+}
+.nav .onav .topicon i{font-size: 20px;}
+.nav .onav .bottomspan{
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.nav .onav .bottomspan span{font-size: 16px;}
+
+.nav .cnav:HOVER {
+	background-color: #198CC2
+}
+.nav .onav:HOVER {
+	background-color: #198CC2
+}
+.cur{
+	background-color: #198CC2
+}
+

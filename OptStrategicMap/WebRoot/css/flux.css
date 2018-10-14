@@ -1,0 +1,198 @@
+.datadiv{float: left;height: 97%;margin-top: 1%}
+.left{width: 28%;margin-left: 1%}
+.middle{width: 40%;margin-left: 1%;margin-right: 1%;background-color: #fff;z-index: 5;position: relative;}
+.right{width: 28%;margin-right: 1%}
+
+.left_top{width: 100%;height: 32%;background-color: #fff}
+.left_middle{width: 100%;height: 33.8%;background-color: #fff;margin-top: 2%;margin-bottom: 2%;}
+.left_bottom{width: 100%;height: 32%;background-color: #fff;}
+
+.right_top{width: 100%;height: 32%;background-color: #fff}
+.right_middle{width: 100%;height: 33.8%;background-color: #fff;margin-top: 2%;margin-bottom: 2%;}
+.right_bottom{width: 100%;height: 32%;background-color: #fff;}
+
+.title{width: 100%;height: 30px;font-size: 14px;line-height: 30px;}
+.chart{width: 100%;}
+.title span{margin-left: 10px;padding-left: 5px;}
+.title span#spnLT{border-left:5px solid #00C0FF}
+.title span#spnLM{border-left:5px solid #4AE192}
+.title span#spnLB{border-left:5px solid #FF6600}
+.title span#spnRT{border-left:5px solid #55FFA7}
+.title span#spnRM{border-left:5px solid #5CFEFF}
+.title span#spnRB{border-left:5px solid #00AAFF}
+
+.icondatadiv{
+	float: left;
+	margin-top:35px;
+	margin-left:15px;
+}
+.icondatadiv .icondiv{
+	float: left;
+	border-radius:5px;
+	-o-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+}
+.icondatadiv .datadiv{float: left;height: 100%;}
+
+.icondatadiv .icondiv i.iconfont{font-size: 34px;}
+.icondatadiv .datadiv .tdiv{width: 100%;font-size: 14px;text-indent: 1ex}
+.icondatadiv .datadiv .bdiv{width: 100%;}
+.icondatadiv .datadiv .bdiv span.name{float: left;font-size: 12px;text-indent: 1ex}
+.icondatadiv .datadiv .bdiv span.rate{float: right;font-size: 14px;}
+.icondatadiv .datadiv .bdiv i.iconfont{float: right;font-size: 24px;}
+
+
+.middle .regiondiv{
+	z-index:9999999 !important;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+.middle .dateselectdiv{
+	z-index: 10;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 30px;
+}
+.middle .regiondiv i.iconfont{float: left;font-size: 24px;color: #03ACFD;cursor: default;}
+.middle .regiondiv div.regionselect{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.middle .regiondiv div.IndexSelect{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+
+.middle .mapdiv{width: 100%;height: 100%;position: relative;}
+.middle .mapdiv .svgMap{width: 100%;height: 100%;position: absolute;z-index: 100;background:#fff;}
+.middle .mapdiv .echartsMap{width: 100%;height: 100%;position: absolute;z-index: 99;background:#fff;}
+/*图例部分*/
+.middle .mapright{
+	width:150px;
+	height:120px;
+	border:1px solid #03A1EA;
+	bottom:5px;
+	right:5px;
+	z-index:9999999999;
+	position: absolute;	
+}
+.middle .mapright .title{height:30px;background:#27BAFF;}
+.middle .mapright .title .desc{float: left;line-height:30px;height:30px;width:33px;font-size: 16px;color: white;margin-left:40px;}
+.middle .mapright .title .unit{float: left;line-height:35px;height:30px;font-size: 10px;color: black;margin-left:0px}
+
+.middle .mapright .onepart{height:30px;}
+.middle .mapright .onepart .spantext{height:30px;line-height:30px;font-size: 12px;}
+.middle .mapright .onepart .spancolor{float: left;margin:7px;width:30px;height:16px;}
+.middle .mapright .onepart .spancolor1{background: rgba(1,169,240,0.9);}
+.middle .mapright .onepart .spancolor2{background: rgba(1,169,240,0.6);}
+.middle .mapright .onepart .spancolor3{background: rgba(1,169,240,0.3);}
+
+
+.middle .dateselectdiv .DMdiv{float: left;width: 80px;height: 24px;border: 1px solid #01ABFF;margin-top: 3px;line-height: 24px;font-size: 14px;}
+.middle .dateselectdiv .DMdiv .typediv{float: left;width: 40px;height: 24px;text-align: center;line-height: 24px;cursor: pointer;color: #01ABFF}
+.middle .dateselectdiv .DMdiv .curdiv{background-color: #01ABFF;color: #fff !important;}
+
+.middle .dateselectdiv .datepickerdiv{float:left;height: 24px;border: 1px solid #01ABFF;margin-top: 3px;line-height: 24px;margin-left: 10px;}
+.middle .dateselectdiv .datepickerdiv input {
+	border: 0px;
+	background-color: transparent;
+	text-indent: 1ex;
+	font-size: 16px;
+	color: #000;
+	cursor: pointer;
+	height: 20px;
+	width: 110px;
+	
+	margin-right: 5px;
+	outline-style: none;
+}
+.middle .dateselectdiv .datepickerdiv i{float: right;color: #00AAFF;font-size: 20px;margin-right: 5px;cursor: pointer;}
+
+/*d3地图部分*/
+.dishiName{
+	fill:#fff;
+	font-size:10px;
+	cursor: pointer;
+	position:relative;
+}
+.textRect{
+	opacity:0.5;
+	cursor: pointer;
+}
+.dishiPath{
+	cursor: pointer;
+}
+.tips{
+	background: rgba(1,169,240,0.8);
+	padding: 8;
+	font-size:14px;
+	border-radius:5px;
+	color:white;
+	position:absolute;
+	text-align:left;
+	z-index:9999999 !important;
+}
+
+
+/*指标切换部分*/
+.indexbox{
+	width:300px;
+	position: absolute;
+    z-index: 9999;
+    background: #fff;
+    border: 2px solid #00AAFF;
+    padding: 10px 10px 12px;
+    display: none;
+}
+.indexbox:BEFORE{
+	border-color: transparent transparent #ffffff;
+	top: -21px;
+	z-index: 10001 !important;	
+}
+.indexbox:AFTER {
+	border-color: transparent transparent #00AAFF;
+	top: -24px;
+}
+.indexbox:BEFORE,.indexbox:AFTER {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-width: 12px;
+	border-style: solid;
+	position: absolute;
+	left: 40px;
+	z-index: 9998;
+}
+
+.indexbox p{display: block;width: 300px;font-weight: bold;margin-bottom: 10px;font-size: 14px;color: #00AAFF;margin-top: 0px;font-family: "Microsoft YaHei";}
+.indexbox ul{display: block;width: 300px;list-style: none;padding: 0px;margin: 0px;}
+.indexbox ul li{
+	float: left;
+	font-size: 12px;
+	color: #00AAFF;
+	cursor: pointer;
+	padding: 0px;
+	margin: 5px 10px;
+	font-family: "Microsoft YaHei";
+}
+.indexbox ul li:HOVER {
+	color: #FF664C
+}
