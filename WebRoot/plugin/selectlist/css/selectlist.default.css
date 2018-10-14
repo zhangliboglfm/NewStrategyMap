@@ -1,6 +1,0 @@
-.selectInput{float: left;border: 0px;font-size: 12px;cursor: pointer !important;}
-.selIconfont{float: right;font-size: 18px;cursor: pointer !important;color: #00AFFF}
-.selUl{border: 1px solid #BFD2D6;margin: 0;padding: 0;background-color: #fff;position: absolute;top: 0px;left: 0px;z-index: 999999 !important;}
-.selUl li{list-style: none !important;text-indent: 1ex;font-size: 12px;cursor: pointer !important;width: auto;}
-.selUl li:HOVER {background-color: #00AFFF;color: #fff}
-.selUl li.curentdata{background-color: #00AFFF;color: #fff}
