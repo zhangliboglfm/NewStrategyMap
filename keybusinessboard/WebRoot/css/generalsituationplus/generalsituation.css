@@ -1,0 +1,139 @@
+i{cursor: default;}
+span{cursor: default;}
+div{cursor: default;}
+.main{width: 100%;height: 100%;}
+.main .top{float: left;width: 100%;height:120px;}
+.main .bottom{float: left;width: 100%;margin-top: 30px;}
+/* @media screen and (max-width: 1280px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+}
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+}
+@media screen and (min-width: 1440px) and (max-width: 1600px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+} */
+.main .top .eachinfodiv{
+	float: left;
+	width: 32%;
+	height:100%;
+	color: #fff;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.main .top .magrin2{margin-left: 2%;}
+.main .top .color1{background-color: #138061}
+.main .top .color2{background-color: #973e80}
+.main .top .color3{background-color: #0b5791}
+.main .top .color1 .lifticon{color: #0e6049}
+.main .top .color2 .lifticon{color: #702e5e}
+.main .top .color3 .lifticon{color: #08416e}
+.eachinfodiv .infoicon{float:left;font-size: 36px !important;margin-left: 20px;}
+.eachinfodiv .infoname{float:left;margin-left: 25px;font-size: 30px;font-weight: bold;}
+.eachinfodiv .infonum{float:left;margin-left:5px;}
+.eachinfodiv .lifticon{float:right;margin-right: 10px;font-size: 50px !important; }
+.eachinfodiv .infonum .num{float: left;font-size: 34px;}
+.eachinfodiv .infonum .unit{float: left;margin-left: 5px;font-size: 28px !important;}
+
+.main .bottom .eachbusdiv{
+	float: left;
+	width: 383px;
+	height:100%;
+	margin-left:6px;
+	color: #fff;
+	background-color: #1f2034;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.main .bottom .eachbusdiv-first{
+	margin-left: 0px !important;
+}
+
+.main .bottom .eachbusdivbegin{
+	float: left ;
+	width: 383px;
+	height:100%;
+	margin-left:0px !important;
+	color: #fff;
+	background-color: #1f2034;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.eachbusdiv .title{
+	width: 100%;
+	height: 80px;
+	line-height:80px;
+	background-color: #2b2c3e;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.eachbusdiv .infomain{
+	width: 100%;
+	height: auto;
+	border-radius:0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	-moz-border-radius:0px 0px 5px 5px;
+	-ms-border-radius:0px 0px 5px 5px;
+	-o-border-radius:0px 0px 5px 5px;
+	position: relative;
+}
+.eachbusdiv .title .titlename{
+	border-left: 4px solid #EC496A;
+	margin-left: 15px;	
+	font-size: 30px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+.eachbusdiv .infomain .progressdiv{width: 100%;height: 35%;}
+.eachbusdiv .infomain .chartdiv{width: 100%;height: 62%;}
+.eachbusdiv .infomain .chartdiv ul{margin: 0;padding: 0;width: 100%;height: 100%;}
+.eachbusdiv .infomain .chartdiv ul li{list-style: none;width: 100%;height: 100%;float: left;}
+.eachbusdiv .infomain .chartdiv ul li .buschartdiv{width: 100%;height: 100%;}
+
+.eachbusdiv .infomain .progressdiv .rate{width: auto;height: 80%;position: relative;}
+.eachbusdiv .infomain .progressdiv .cnt{width: 100%;height: 20%;text-align: center;}
+
+.eachbusdiv .infomain .progressdiv .rate .radiadiv{width:100%;height:100%;z-index: 1;}
+.eachbusdiv .infomain .progressdiv .rate .centerdiv{
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	z-index: 99;
+}
+.eachbusdiv .infomain .progressdiv .rate .centerdiv .sdiv{float:left;width:100%;height: 50%;text-align: center;font-size:24px;}
+.eachbusdiv .infomain .progressdiv .rate .centerdiv .ndiv{
+	float:left;
+	width:100%;
+	height: 32px;
+	background-color: #3596fd;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	line-height:32px;
+	border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-ms-border-radius:15px 15px 15px 15px;
+	-o-border-radius:15px 15px 15px 15px;
+}
+
+.eachbusdiv .infomain .progressdiv .cnt .spanname{font-size: 22px;color: #d9d9d9}
+.eachbusdiv .infomain .progressdiv .cnt .spannumber{font-size: 24px;color: #d9d9d9;font-weight: bold;}
+.eachbusdiv .infomain .progressdiv .cnt .spanicon{margin-left: 10px;color: #d84d62;font-size: 28px;}
+.eachbusdiv .infomain .progressdiv .cnt .spanscnum{margin-left: 5px;color: #d84d62;font-size: 20px;}
+

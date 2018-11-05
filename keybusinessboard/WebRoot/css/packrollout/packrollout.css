@@ -1,0 +1,151 @@
+/*设置嵌入的总体布局*/
+.packrollout{width:1366px;margin: 0 auto;text-align: center;}
+
+ /*橙装表格的div居中显示*/
+ .divTable-left{margin-left:140px;float:left;border:1px solid #08C3CA}
+ .divTable-right{padding-left:50px;float:left;position:relative;}
+ /*金额、用户提升数据*/
+ .top{float:left;width:350px;height:180px;} 
+/*左侧数据显示*/
+.MoneyUp{width:100%;height: 90px;}
+.MoneyUpName{margin-top:10px;text-align:left;float:left;height:30px;width:100%;line-height: 30px;color:#11A8DA;font-size:18px;}
+.MoneyUpNumbers{margin-top:10px;float:left;height:44px;width:100%;text-align: center;}
+.MoneyUpNumber{margin:0 auto; height:44px;}
+.number{
+	height:44px;
+	width:32px;
+	line-height:44px;
+	color:white;
+	background:#0C7BBD;
+	float:left;
+	margin-left:4px;
+	font-size: 25px;
+}
+.font5{float:right;height:30px;width:auto;margin-left:10px;line-height: 30px;font-size:30px;margin-right:10px}
+/*右侧数据显示*/
+.right{margin-top:20px;height:30px;}
+.font3{float:left;height:30px;width:auto;line-height: 30px;color:#11A8DA;font-size:18px;}
+.font4{float:left;height:30px;width:auto;margin-left:10px;line-height: 30px;color:#00FFFF;font-size:30px;}
+.font6{float:right;height:30px;width:auto;margin-left:10px;line-height: 30px;font-size:30px;margin-right:10px}
+ 
+ /*指标口径描述*/
+ .indexdescr{
+ 	margin-top:20px;
+ 	float:left;width:350px;height:200px;
+ }
+ 
+/*最底下图例布局*/
+.legend{padding:0;float:left;width:450px;height:245px;position:absolute;bottom:0px;left:50px;}
+.tuli{width:150px;height:20px;color: white;float:left;margin-top: 12px;}
+.fanwei{float: left;height: 20px; line-height:20px;}
+.two{float: left;height: 20px; line-height:20px;color:gray;display:none;}
+/*设置图例大小以及颜色*/
+.one{float:left;width:20px;height: 20px;margin-right:5px;cursor: pointer; border:1px solid #08C3CA}
+.color1{background: #6eb6ff;}
+.color2{background: #4ebdff;}
+.color3{background: #29beff;}
+.color4{background: #19c5ef;}
+.color5{background: #0dd4e6;}
+.color6{background: #09dcd5;}
+.color7{background: #0befc2;}
+.color8{background: #17fcab;}
+.color9{background: #27ff90;}
+.color10{background: #41ff6a;}
+.color11{background: #5aff48;}
+.color12{background: #78ff24;}
+.color13{background: #85ff14;}
+.color14{background: #98ff00;}
+.color15{background: #abe000;}
+.color16{background: #bab700;}
+.color17{background: #fff000;}
+.color18{background: #edb000;}
+.color19{background: #ed6300;}
+.color20{background: #ff0014;}
+
+
+/*设置表格数据样式*/
+.shuju{float:left;background: #ffffff;border-right: 1px solid #08C3CA;}
+.null-opacity{float:left; background: rgba(0,0,0,0) !important;background: transparent  !important; border-right: 1px solid #08C3CA;}
+.null-opacity-last{float:left;background: rgba(0,0,0,0) !important;background: transparent  !important; }
+.shuju-last{float:left;background: #ffffff;}
+.row{float:left;border-bottom: 1px solid #08C3CA;}
+
+/*设置悬浮框样式*/
+.pop_titlediv{position: absolute;display: none;}
+.divhover{
+	min-width:300px;
+	height:32px;
+	background: #13203F;
+	border:1px solid #0B9AA8;
+	border-top-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+}
+.divhover-title{
+	background:#0B9AA8;
+	color:white;
+	font-size:15px;
+	line-height:30px;
+	height: 30px;
+	width:120px;
+	border-top-left-radius:0.5em;
+	border-top-right-radius:0.5em;
+}
+
+.divhover-hang{
+	min-width:300px;
+	height:30px;
+	padding-right: 10px;
+}
+.divhover-shuju{
+	height: 32px;
+	border:1px solid #0B9AA8;
+	border-top-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-bottom-right-radius:1em;
+}
+.divhover-shuju1{
+	margin-left:5px;
+	font-size:13px;
+	height: 30px;
+	line-height:30px;
+	float: left;
+	color:white;
+}
+.divhover-shuju2{
+	font-size:13px;
+	margin-left:5px;
+	height: 30px;
+	line-height:30px;
+	float: left;
+	color:white;
+}
+.divhover-shuju3{
+	font-size:20px;
+	margin-left:5px;
+	height: 30px;
+	line-height:30px;
+	float: left;
+	font-weight:bold;
+	color:red;
+}
+.divhover-shuju4{
+	margin-left:5px;
+	margin-top:7px;
+	height: 30px;
+	float: left;
+	color:#00FFFF;
+}
+.grid-opacity{
+	/* -moz-opacity:0;
+	-khtml-opacity:0;
+	opacity:0;
+	filter:Alpha(opacity=0); */	
+	
+	background: rgba(0,0,0,0) !important;
+	background: transparent  !important; 
+}
+.colorgray{
+	background: gray !important;
+	border:1px solid gray !important;
+}

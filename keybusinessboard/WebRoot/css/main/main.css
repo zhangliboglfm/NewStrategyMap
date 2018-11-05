@@ -1,0 +1,39 @@
+/* Ö÷¿ò¼Ü */
+.main .top .filter{width: 320px;height: 30px;bottom: 16px;left: auto;position: absolute;}
+.main .top .filter .timediv{float: left}
+.main .top .filter .region{margin-left:50px;float: left;width: 70px;height: 30px;line-height: 30px;font-size: 18px;color: gray;text-align: center;}
+.main .top .filter .bnt{margin-left:0px;float: left;width: 20px;height: 30px;line-height: 30px;text-align: center;}
+.main .top .filter .bnt i{font-size: 18px;color: #00c9ff;cursor: pointer;}
+.main .nav{float: left;width: auto;height: 30px;}
+.main .ifreamdiv{width: 100%;float: left;margin-top: 10px;}
+.main .ifreamdiv .ifr{width: 100%;height: 100%;border: 0px;}
+
+.main .nav .eachnavdiv{
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	width: auto;
+	padding-left:15px;
+	padding-right:15px;
+	color: #fff;
+	font-size: 14px;
+	border-bottom: 4px solid #5E2F4C;
+	text-align: center;
+	cursor: pointer;
+}
+.main .nav .eachnavdiv:HOVER{border-bottom: 4px solid #ED496B;color: #ED496B}
+.main .nav .cur_eachnavdiv{border-bottom: 4px solid #ED496B;color: #ED496B}
+.main .nav .marginwidth{margin-left: 6px;}
+
+
+.div_datepiker{float: left;width:160px;height: 30px;position: relative;}
+.div_datepiker .inputdate{
+	float: left;height: 30px;width: 160px;border: 0px;cursor: pointer;
+	background-color:transparent;font-family: LCD7;color: gray;line-height: 30px;font-size: 18px;
+	margin-left: 60px;
+}
+.div_datepiker i{float: right;margin-right: 5px;color: #00c9ff;font-size: 18px !important;position: absolute;
+		top:6px;left:190px;cursor: pointer;
+	
+}
+

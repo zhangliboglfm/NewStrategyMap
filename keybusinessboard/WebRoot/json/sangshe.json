@@ -1,0 +1,18 @@
+{"nodes": [
+      {"name": "AABBBBBBBB","value":20},
+      {"name": "BB","value":15},
+      {"name": "CC","value":16},
+      {"name": "DD","value":20},
+      {"name": "EE","value":6},
+      {"name": "FF","value":10},
+      {"name": "GG","value":16}
+   ],
+   "links": [
+      {"source": "AABBBBBBBB", "target": "DD", "value": 9},
+      {"source": "BB", "target": "DD", "value": 8},
+      {"source": "CC", "target": "DD", "value": 7},
+      {"source": "DD", "target": "EE", "value": 5},
+      {"source": "DD", "target": "FF", "value": 6},
+      {"source": "DD", "target": "GG", "value": 8}
+ 
+   ]}

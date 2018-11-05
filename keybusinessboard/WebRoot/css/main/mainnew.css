@@ -1,0 +1,56 @@
+/* ����� */
+.main .top .filter{width: 400px;height:50px;bottom: 15px;right:-20px;position: absolute;}
+.main .top .filter .timediv{float: left;width: auto;height: 40px;}
+.main .top .filter .bnt{margin-left:30px;float: left;width: 30px;height:40px;line-height: 40px;text-align: center;}
+.main .top .filter .bnt i{font-size: 30px;color: #3F5CA0;cursor: pointer;}
+.main .top .nav{float: left;width: auto;height: 45px;position: absolute;bottom: -23px;left: auto;}
+.main .ifreamdiv{width:100%;float: left;position: absolute;top:100px;}
+.main .ifreamdiv .pt-perspective .pt-page .ifr{width: 100%;height: 100%;border: 0px;}
+
+
+.main .top .filter .div_select{
+	margin-left:20px;
+	float: left;
+	width: 115px;
+	height: 40px;
+	line-height:40px;
+	font-size: 18px;
+	color: gray;
+	text-align: center;
+	}
+.main .top .nav .eachnavdiv{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 160px;
+	color: #fff;
+	font-size: 24px;
+	border-bottom: 4px solid #5E2F4C;
+	text-align: center;
+	cursor: pointer;
+}
+.main .top .nav .eachnavdiv:HOVER{border-bottom: 4px solid #ED496B;color: #ED496B}
+.main .top .nav .cur_eachnavdiv{border-bottom: 4px solid #ED496B;color: #ED496B}
+.main .top .nav .marginwidth{margin-left: 50px;}
+
+
+.div_datepiker{float: left;width:auto;height: 30px;position: relative;margin-left:10px}
+.div_datepiker .inputdate{
+	float: left;
+	height: 40px;
+	width: 160px;
+	border: 0px;
+	cursor: pointer;
+	background-color:transparent;
+	font-family: LCD7;
+	color:white;
+	line-height:40px;font-size:22px;
+}
+.div_datepiker i{
+	float: left;
+	/* margin-left: 10px; */
+	color: #3F5CA0;
+	font-size: 24px !important;
+	cursor: pointer;
+	margin-top:10px;
+}

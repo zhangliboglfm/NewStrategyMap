@@ -1,0 +1,591 @@
+/*主页面设置*/
+.maindiv{width: 100%;height:100%;position:relative;}
+
+/*jquery.ui 设置悬浮div*/
+.maindiv .echartsdesc{width:350px;height:300px;background:#1C1C29;position:absolute;z-index: 99999999999 !important;display:none;}
+.maindiv .echartsdesc .title{width: 100%;height:30px;line-height:30px;color:white;font-size: 18px;background:#2C2C39;position: relative;}
+.maindiv .echartsdesc .title .closeicon{right:5px;cursor:pointer;color:#171726;position: absolute;}
+.maindiv .echartsdesc .title span{margin-left:10px;padding-left:10px;border-left:3px solid #EC496A}
+.maindiv .echartsdesc .content{width: 100%;height:270px;}
+/*上半部分div*/
+
+.topleft{
+	float: left;
+	width: 100%;
+	height:336px;
+	background-color: #1F2034;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.topleft .title{
+	width:100%;
+	height:50px;
+	background-color: #2B2C3E;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.topleft .title .packinfo{
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	padding-left: 10px;
+	height: 30px;
+	margin-left: 10px;
+	border-left: 4px solid #EC496A;
+	font-weight: bold;
+}
+.topleft .title .packinfo font{font-size: 14px;font-weight: normal;}
+.topleft .main{
+	width:100%;
+	height:286px;
+	position: relative;
+}
+/*最上面轮播*/
+.sildertop{
+	text-align: center;
+	position: relative;
+	height: 100%;
+	float: left;
+	width:65%;
+	height: 50%;
+	margin-left: 10px;
+	border-left: 1px solid rgba(219,71,102,0.2)
+}
+/*加载桑基图的地方*/
+.echartsdiv{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.topright{
+	float: left;
+	margin-top:10px;
+	width: 100%;
+	height:326px;
+	position: relative;
+	background-color: #1F2034;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+.topright .title{
+	width:100%;
+	height: 50px;
+	background-color: #2B2C3E;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.topright .title .packinfo{
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	padding-left: 10px;
+	height: 30px;
+	margin-left: 10px;
+	border-left: 4px solid #EC496A;
+	font-weight: bold;
+}
+.topright .title .packinfo font{font-size: 14px;font-weight: normal;}
+
+.topright .pt-perspective{
+	width:100%;
+	height:276px;
+}
+
+.topright .pt-perspective .pt-page .tablename{
+	float:left;
+	width:100%;
+	height:25%;
+}
+
+.topright .pt-perspective .pt-page .tablename table{
+	width: 100%;
+	height:100%;
+}
+.topright .pt-perspective .pt-page .tablename table tr th{
+	border:1px solid #515161;
+	width:16.6667%;
+	color: white;
+	font-size: 18px !important;
+}
+.topright .pt-perspective .pt-page .tabledata{
+	margin-top:1px;
+	float: left;
+	width: 100%;
+	height:75%;
+	max-height:75%;
+	text-align: center;
+}
+
+.topright .pt-perspective .pt-page .tabledata .historytable{
+	width: 100%;
+	text-align: center;
+}
+.topright .pt-perspective .pt-page .tabledata table tr{
+	cursor:pointer;
+	width: 100%;
+	height:50px;
+}
+.topright .pt-perspective .pt-page .tabledata table tr td{
+	font-size:18px;
+	width:20%;
+}
+/* .topright .main{width: 100%;height: 97%}
+.topright ul{margin: 0;padding: 0;width: 100%;height: 100%;}
+.topright ul li{list-style: none;width: 100%;height: 100%;float: left;}
+.topright ul li .chartmaindiv{width: 100%;height: 100%;}
+.topright ul li .chartmaindiv .title{
+	width:100%;
+	height: 10%;
+	background-color: #2B2C3E;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.topright ul li .chartmaindiv .title .areacharttitle{
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	padding-left: 10px;
+	height: 20px;
+	margin-left: 10px;
+	border-left: 4px solid #EC496A;
+	font-weight: bold;
+}
+.topright ul li .chartmaindiv .title .areacharttitle font{font-size: 14px;font-weight: normal;}
+.topright ul li .chartmaindiv .areachartdiv{
+	width:100%;
+	height: 90%;
+} */
+/*下半部分div*/
+.mainbottom{
+	margin-top:10px;
+	float:left;
+	height:278px;
+	width: 100%;
+	background-color:#1F2034;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+/*底部标题部分*/
+.mainbottom .title{
+	width:100%;
+	height: 50px;
+	background-color: #2B2C3E;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.mainbottom .title .packinfo{
+	color: #fff;
+	float: left;
+	font-size: 20px;
+	padding-left: 10px;
+	height: 30px;
+	margin-left: 10px;
+	border-left: 4px solid #EC496A;
+	font-weight: bold;
+}
+.mainbottom .title .packinfo font{font-size: 14px;font-weight: normal;}
+/*底部table数据部分*/
+.bottomtable{
+	float:left;
+	width: 100%;
+	height: 228px;
+}
+.tableName{
+	float:left;
+	width: 100%;
+	height: 20%;
+	font-size:18px;
+	background-color:#25263A;
+	text-align: center;
+}
+.tabletitle{
+	margin: 0 auto;
+	height: 100%;
+	width: 85%;
+}
+
+/*设置表格的行之间没有填充*/
+table{
+	border-collapse:collapse;
+}
+.table1{
+	height: 100%;
+	width: 100%;
+}
+.table1 tr th{
+	color:white;
+	width:20%;
+	height: 100%;
+}
+.thright{
+	width:100% !important;
+	border-right: 1px solid #515161;
+}
+.tableshuju{
+	width: 100%;
+	height: 80%;
+	max-height:80%;
+	text-align: center;
+}
+.tabledata{
+	margin: 0 auto;
+	width: 85%;
+}
+.table2{
+	width: 100%;
+}
+.table2 tr{
+	cursor: pointer;
+}
+.table2 tr td{
+	width:20%;
+	height: 50px;
+	font-size:18px;
+	padding:0;
+}
+.bcolor{
+	background-color:#25263A;
+}
+.dataNum{
+	float:left;
+	height:30px;
+	width: 50%;
+	line-height:30px; 
+}
+.dataprogress{
+	float:left;
+	height: 30px;
+	width: 50%;
+	text-align: center;
+  	position: relative;
+}
+/*设置选中样式*/
+.bgcolor1{
+	background-color:#21415d;
+}
+.bgcolor2{
+	background-color:#21415d !important;
+	 
+}
+
+/*设置顶部轮播样式*/
+.silder1{
+	float:left;
+	text-align:center;
+	font-size:14px;
+	width: auto;
+	height:100%;
+	color:#Db4766;
+	padding-left: 10px;
+}
+.silder1 font{font-size: 20px;}
+/*table2红色小块*/
+.table2div{
+	color:white;
+	height:50px;
+	width: 100%;
+	max-width:100%;
+	line-height:50px;
+	overflow: hidden;
+}
+/* .table2red{
+	border-left: 3px solid #ed496b;
+} */
+/*table2名称列字体颜色*/
+.tb2th{
+	color:#0f9aa2;
+}
+
+.allsum{
+	float: left;
+	margin-left: 30px;
+	height: 45%;
+	border-left: 1px solid rgba(219,71,102,0.2)
+}
+.allsum .sumName{
+	margin-left:20px;
+	color: #Db4766;
+	font-size: 14px;
+}
+.allsum .sumNum{
+	margin-left: 5px;
+	color:#2BF4FE;
+	font-size:20px; 
+}
+
+
+/*选中的或者悬浮的table2数字的颜色*/
+.fotcolor1{
+	color:#fff !important;
+}
+.fotcolor2{
+	color:#fff !important;
+}
+.qipaochangediv{
+	margin-right:20px;
+	float: right;
+	cursor: pointer;
+}
+.qipaochangediv i,.qipaochangediv span{
+	font-size: 15px;
+	color: #2bf4fd;
+}
+.qipaochangediv span{
+	text-decoration: underline;
+}
+
+.font1{
+	font-size:30px !important;
+	color:green !important;
+}
+.font2{
+	font-size:30px !important;
+	color:red !important;
+}
+.divradar{
+	float:left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.radarechart{
+	width: 100%;
+	height:100%;
+}
+.divfanhui{
+	right:20px;
+	bottom:10px;
+	color:white;
+	cursor:pointer;
+	position: absolute;
+}
+.font3{
+	font-size: 30px !important;
+	color:#2bf4fd;
+}
+
+.tooltipdiv{
+	width:210px;
+	height: 155px;
+}
+.tooltiptitle{
+	padding-left:10px;
+	text-align:left;
+	float:left;
+	width:200px;
+	height:30px;
+	background: #2B2C3E;
+	font-size:16px;
+	line-height:30px;
+	font-size:14px;
+	border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-ms-border-radius:5px 5px 0px 0px;
+	-o-border-radius:5px 5px 0px 0px;
+}
+.tooltiptitle .tooltiptitle1{
+	border-left: 4px solid #ED496B;
+	padding-left: 5px;
+}
+.tooltipdata{
+	padding-left:15px;
+	text-align:left;
+	float:left;
+	width:195px;
+	font-size:12px;
+	height:25px;
+	line-height: 25px;
+	background-color: #25263A;
+	
+}
+.tooltipdata-last{
+	padding-left:15px;
+	text-align:left;
+	float:left;
+	width:195px;
+	font-size:12px;
+	height:25px;
+	line-height: 25px;
+	background-color: #25263A;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-ms-border-radius:5px 5px 5px 5px;
+	-o-border-radius:5px 5px 5px 5px;
+}
+
+.divhistory01{
+	background-color:#25263A;
+	height:40px;
+	font-size: 18px;
+	cursor:pointer;
+	border-bottom:1px solid rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+.divhistory01 .divhsi1{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	width:16.8%;
+	border-right:1px solid rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+.divhistory01 .divhsi2{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:#0f9aa2;
+	width:16.64%;
+}
+.divhistory02{
+	height:40px;
+	font-size: 18px;
+	cursor:pointer;
+	border-bottom:1px solid rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+
+.divhistory02 .divhsi1{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	width:16.8%;
+	border-right:1px solid  rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+.divhistory02 .divhsi2{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:#0f9aa2;
+	width:16.64%;
+	
+}
+
+.divhistory03{
+	background-color:#25263A;
+	height:120px;
+	font-size: 18px;
+	cursor:pointer;
+	border-bottom:1px solid rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+.divhistory03 .divhis3{
+	float:left;
+	height:120px;
+	line-height:120px;
+	font-size:18px;
+	color:white;
+	border-right:1px solid  rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+	width:16.8%;
+}
+.divhistory03 .divhis5{
+	float: left;
+	height:40px;
+	width:83.2%;
+}
+.divhistory03 .divhis5 .divhis4{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	width:20%;
+}
+.divhistory03 .divhis5 .divhis6{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:#0f9aa2;
+	width:20%;
+}
+
+
+.divhistory04{
+	height:120px;
+	font-size: 18px;
+	cursor:pointer;
+	border-bottom:1px solid rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+}
+.divhistory04 .divhis3{
+	float:left;
+	height:120px;
+	line-height:120px;
+	font-size:20px;
+	color:white;
+	border-right:1px solid  rgba(0, 0, 0,0.5);
+	box-sizing:border-box;
+	width:16.8%;
+}
+.divhistory04 .divhis5{
+	float: left;
+	height:40px;
+	width:83.2%;
+}
+.divhistory04 .divhis5 .divhis4{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:white;
+	width:20%;
+}
+.divhistory04 .divhis5 .divhis6{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	color:#0f9aa2;
+	width:20%;
+}
+
+/*设置悬浮框样式*/
+.divtips{
+	width:250px;
+}
+.divtips .title{
+	width:250px;
+	height:30px;
+	line-height: 30px;
+	font-size:18px;
+	color: white;
+	background:#171725;
+}
+.divtips .content{
+	text-align:left;
+	width:240px;
+	margin-left:10px;
+	font-size: 18px;
+}
+.divtips .content .span1{
+	font-size:16px;
+	color:white;
+}
+.divtips .content .span2{
+	font-size:20px;
+	color:#0f9aa2
+}

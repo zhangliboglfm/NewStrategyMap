@@ -1,0 +1,298 @@
+.flowandpack{width: 100%;height: 100%;}
+/*根据屏幕自适应*/
+/* @media screen and (max-width: 1280px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+}
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+}
+@media screen and (min-width: 1440px) and (max-width: 1600px){
+	.main .top{width: 100%;height: 80px;}
+	.main .bottom{width: 100%;height: auto;}
+} */
+
+/*上半部分布局*/
+.top{
+	float: left;
+	width: 100%;
+	height:580px;
+}
+
+/*下半部分布局*/
+.bottom{
+ 	margin-top:10px; 
+ 	height:370px;
+	float: left;
+	width: 100%;
+  	background-color: #1F2034; 
+}
+
+/*top left 部分div*/
+.flowTopTen{
+	float: left;
+	height: 230px;
+	width:100%;
+	background-color: #1F2034;
+}
+
+/*top right 部分div*/
+.packMainPush{
+	margin-top:10px;
+	float: left;
+	height: 340px;
+	width:100%;
+	background-color: #1F2034;
+}
+
+/*每部分最顶部的div*/
+.flowTopBack{
+	width: 100%;
+	height:50px;
+	background-color: #2B2C3E;
+	text-align: center;
+  	position: relative;
+}
+/*标题部分*/
+.divTitle{
+	float:left;
+	height:50px;
+	position: relative;
+}
+.divTitle span{
+	margin-left:10px;
+	padding-left:10px;
+	border-left:4px solid #EC496A;
+	height:50px;
+	color: white;
+	font-size:20px;
+	font-weight:bold;
+	line-height: 50px;
+}
+
+.divhot{
+	position: absolute;
+}
+
+/*设置最底部的详细信息*/
+.detailedDescr{
+	height:50px;
+	line-height:55px;
+	margin-left:20px;
+	float: left;
+	color:#ee456c;
+	font-size:16px;
+	font-weight: bold;
+}
+/*设置流量包数据部分*/
+.flowTopTenData{
+	width: 100%;
+	height:180px;
+	text-align: center;
+}
+.flowTopTenData .left{
+	float: left;
+	width:50%;
+	height: 100%;
+}
+.flowTopTenData .right{
+	float: right;
+	width:50%;
+	height: 100%;
+}
+.flowdata{
+	text-align:center;
+	margin:0 auto;
+	width:80%;
+	height:20%;
+	cursor:pointer;
+}
+.diviconfont{
+	font-size:14px;
+	height:100%;
+	width:10%;
+	float: left;
+}
+.divpackname{
+	height:100%;
+	width:90%;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+.divpackname .namespan{
+	display:block;
+	float:left;
+	height:100%;
+	max-width:89%;
+	overflow: hidden;
+}
+.divpackname .namespan2{
+	display:block;
+	height:100%;
+	float:left;
+	max-width: 92%;
+	overflow: hidden;
+}
+/*设置iconfont的颜色*/
+.color1{color: #ff0000;}
+.color2{color: #ff6d00;}
+.color3{color: #00a048;}
+.color4{color: #0096ff;}
+
+/*设置底部数据部分*/
+.flowPackUnderLine{
+	float: left;
+	height:350px;;
+	width:96%;
+	margin-left: 2%;
+	position: relative;
+}
+
+/*right DIV*/
+.mainPushPack{
+	float: left;
+	width:100%;
+	height:290px;
+	/* position:relative;
+	overflow: hidden;  */
+}
+.echartsdiv{
+	float:left;
+	position: absolute;
+	height: 100%;
+}
+.divechart{
+	height: 100%;
+	float: left;
+}
+/*名字部分*/
+.mainPushName{
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+.divechartName{
+
+	float: left;
+	height: 100%;
+	width: 200px;
+	cursor: pointer;
+}
+
+.active1{
+	color:#1ba6e9 !important;	
+}
+
+/*bottom  DIV*/
+.d3data{
+	top:30px;
+	width:100%;
+	height:290px;
+	float: left;
+	position: relative;
+	overflow: hidden; /*此处需要将溢出框架的图片部分隐藏*/
+}
+/* .divslidershow{
+	float:left;
+	height: 100%;
+	position: absolute;
+} */
+
+/* .divslidershow div{
+	float: left;
+	width: 10%;
+	height: 100%;
+} */
+.sildername{
+	top:2px;
+	float:left;
+	width:100%;
+	height:28px;;
+	position:absolute;
+	z-index: 9999999999999 !important;
+}
+.regionname{
+	padding-left:8px;
+	padding-right:8px;
+	margin-left:20px;
+	height:28px;
+	line-height:28px;
+	font-size:18px;
+	width:auto;
+	color:white;
+	float:left;
+	cursor: pointer;
+}
+.active{
+	background-color:#873350  !important;
+}
+
+.divcircle{
+	height:100%;
+	width:100%;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+#divcircle0{
+	display: block;
+}
+.divcircle1{
+	height:100%;
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+.active1{
+	display: block ;
+}
+.nromalbusi{
+	width:100% !important;
+	height: 200px !important;
+	margin: auto auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position: absolute;
+	background-image:url('image/normalbusiness.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.popDivTitle{
+	padding:2px;
+	background-color: #2B2C3E;
+	font-size:26px;
+	position: absolute;
+	display: none;
+	color:white !important;
+}
+
+.sp1{
+	font-size:10px !important;
+	color: #00F0FF;
+}
+
+.font11{
+	color:#ED496B;
+	font-size:24px !important;
+	display: block;
+	width: 8%;
+	float:left;
+}
+.font1{
+	font-size:35px !important;
+	color:#ED496B;
+}
+
+.yuzhiinput{
+	text-align:center;
+	width:25px;
+	background:#212136;
+	border:0px;
+	color:white;
+}

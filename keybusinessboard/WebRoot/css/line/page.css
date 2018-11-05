@@ -1,0 +1,324 @@
+.main{width: 100%;height: 100%;}
+.rightpart{
+  width:270px;
+  height:99.5%;
+  float: left;
+}
+.rightcontent{
+  width:250px;
+  height:100%;
+  float:left;
+  margin-left: 9px;
+}
+.rightcontentdata{
+  width:100%;
+  float:left;
+}
+.rightfont{
+  width:248px;
+  height:20px;
+  border-left: 2px solid #ed496b;
+  color: #fff;
+  text-indent: 4px;
+  line-height:20px;
+  font-size: 16px;
+}
+.rightchage{
+    width:100%;
+    height:26px;
+    float:left;
+    border-top: 1px solid #1b7c91; 
+    background-color: #19283D;
+ }
+ .righteachchage{
+     width:19.6%;
+     height: 100%;
+     float:left;
+     color:#00FEFD;
+     line-height: 30px;
+     text-align: center;
+     border-right: 1px solid #1b7c91 ;
+     border-bottom:3px solid #173742;
+     cursor: pointer;
+ }
+  .cur_righteachchage{
+  	 border-bottom: 2px solid #ed496b;
+  }
+.middlepart{
+  height:99.5%;
+  float: left;
+  margin-left: 6px;
+}
+  .middleeveryddata{
+     width:100%;
+     height:20px;
+     margin-top: 5px;
+  } 
+  .middleeverybuttom{
+     width:120px;
+     height:20px;
+     text-align: center;
+     margin:auto;
+     background: #085696;
+     line-height: 20px;
+     color: #FFFFFF;
+     font-size: 12px !important;
+  }
+ .topclass{
+  height:30%;
+  float:left;
+  width:100%;
+ }
+.topclass .leftdiv{float: left;width: 48.8%;height: 100%;border: 2px solid #0ac2cd;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 20px #1050B2;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 20px #1050B2;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 20px #1050B2;
+}
+.topclass .rightdiv{float: left;width: 48.8%;height: 100%;margin-left: 1%;border: 2px solid #0ac2cd;
+	/* For IF9 Or opera */
+	box-shadow:0px 0px 20px #1050B2;
+	/* For FireFox */
+	-moz-box-shadow:0px 0px 20px #1050B2;
+	/* For Safari Or Chrome */
+	-webkit-box-shadow:0px 0px 20px #1050B2;
+}
+.topclass .leftdiv .title,.topclass .rightdiv .title{width: 100%;background-color: #09a2c2;height: 30px;line-height: 30px;text-align: center;cursor: default;font-size: 16px;color: #fff}
+.topclass .leftdiv .info,.topclass .rightdiv .info{width: 100%;}
+.middleclass{
+  height:45%;
+  float:left;
+  width:100%;
+}
+.middlefont{
+  line-height:18px;
+  width:100%;
+  height:18px;
+  float:left;
+  border-left: 2px solid #ed496b;
+  font-size: 15px;
+  text-indent: 4px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: #fff
+}
+.middleonedata{
+  width:100%;
+  float:left;
+  border: 1px solid #1b7c91;
+}
+.middleonedata .eachsection{width: 100%;}
+.middleonedata .eachsection  .middleevery{
+    width:33%;
+    height:90%;
+    float:left;
+    margin-top: 15px;
+}
+.middleonedata .eachsection .middleevery  .middleeverydpicture{
+	width: 100%;
+	height: 90%;
+}
+.middleonedata .cur_eachsection{display: block;}
+.middleonedata .navgition{width: 100%;height: 15px;line-height: 15px;text-align: center;cursor: default;}
+.middleonedata .navgition a{color: #095C6A;font-size: 14px;cursor: pointer;text-decoration: none;}
+.middleonedata .navgition .cur_a{color: #01FFFF}
+.bottomclass{
+  height:25%;
+  float:left;
+     width:100%;
+}
+.bottomdata{
+  width:100%;
+  float:left;
+  border: 1px solid #1b7c91;
+  margin-top: 3px;
+}
+.bottomdata .chart{
+	width: 100%;
+	float: left;
+}
+.bottomdata .nav{
+	width: 100%;
+	float: left;
+	height: 30px;
+	background-color: #19283D;
+	border-top: 1px solid #68F4F5;
+}
+.bottomdata .nav .eachnav1{
+	float: left;
+	border-right: 1px solid #4CB2B4;
+	height: 30px;
+	width: 204.2px;
+	color: #69F2EF;
+	cursor: pointer;
+	text-align: center;
+}
+.bottomdata .nav .eachnav2{
+	float: left;
+	height: 30px;
+	width: 205.2px;
+	color: #69F2EF;
+	cursor: pointer;
+	text-align: center;
+}
+
+.bottomdata .nav .eachnav1 .name{float: left;width: 100%;height: 28px;font-size: 14px;text-align: center;line-height: 28px;}
+.bottomdata .nav .eachnav1 .boder{float: left;width: 100%;height: 3px;}
+.bottomdata .nav .eachnav2 .name{float: left;width: 100%;height: 28px;font-size: 14px;text-align: center;line-height: 28px;}
+.bottomdata .nav .eachnav2 .boder{float: left;width: 100%;height: 2px;}
+.bottomdata .nav .cureachbg{background-color: #173742}
+.bottomdata .nav .eachnav1 .curboderbg{background-color: #ED496B}
+.bottomdata .nav .eachnav2 .curboderbg{background-color: #ED496B}
+.leftpart{
+  width:270px;
+  height:99.5%;
+  float: right;
+}
+.leftcontent{
+  width	:250px;
+  height:100%;
+  float:left;
+  margin-left: 9px;
+}
+.leftcontentdata{
+  width:100%;
+  float:left;
+}
+.leftachchage{
+  width:19.6%;
+  height: 100%;
+  float:left;
+  color:#00FEFD;
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid #1b7c91 ;
+  cursor: pointer;
+  border-bottom:3px solid #173742;
+ }
+  
+  /* 左右边框的样式 */
+.everyinternetdata{
+  width: 100%;
+  height: 7%;
+  float:left;
+  color:#FFFFFF;
+  margin-top: 4%;
+  text-align: center;
+  position: relative;
+  }
+ .everyinternetfont{
+   width:50px;
+   height:20px;
+   font-size: 14px;
+   margin:auto 0;
+   left:0px;
+   top:0px;
+   bottom:0px;
+   right:0px;
+   position: absolute;
+ }
+ .everyinternetdatabart{
+   width:180px;
+   height:70%;
+   position: absolute;
+   margin:auto 0;
+   left:55px;
+   top:0px;
+   bottom:0px;
+   right:0px;
+ }
+ .floweverystyle{
+   width:230px;
+   margin-left: 10px;
+   height:5%;
+   border: 1px solid #1b7c91;
+ }
+ /* 业务办理量的样式  */
+   
+ .floweverystylefont{
+     width:43px;
+     height:100%;
+     text-align: center;
+     color:#FFFFFF;
+     margin-left: 1px;
+     float:left;
+     font-size:14px
+ }
+ .floweverybar{
+     width:0px ;
+     height:6px;
+     background: #01FFFF;
+     float:left;
+     margin-left: 2px;
+     max-width: 140px;
+ }
+   .floweverystylenum{
+     width:20px;
+     height:100%;
+     text-align: center;
+     color:#FFFFFF;
+     margin-left: 2px;
+     margin-right:22px;
+     float:right;
+     color:#16cad6;
+ }
+ .businessvolume{
+     width:100%;
+     height:60%;
+     margin-top: 8%;
+ }
+ .businessleft{
+    width:30%;
+    height:100%;
+    float:left;
+    border-right: 1px dotted #16cad6;
+ }
+ .businessright{
+    width:69%;
+    height:100%;
+    float:left;
+ }
+ .alleachnumber{
+    width:100%;
+    height:50%;
+ }
+ .eachnumberleft{
+    width:9%;
+    height:90%;
+    float: right;
+    background: #0c7bbd;
+    margin-right: 4px;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+ }
+ .eachnumberright{
+    width:9%;
+    height:90%;
+    float: right;
+    background: #0c7bbd;
+    margin-right: 4px;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+ }
+ .businesstitle{
+   width:100%;
+   height:50%;
+   float: left;
+ }
+ .titleleft{
+   width:100%;
+   height:100%;
+   text-align: center;
+   font-size: 20px;
+   color: #FFFFFF;
+ }
+ .titleleft i{
+   font-size:25px;
+   color:#03dbdb;
+ }
+.pop_titlediv{height: 20px;background-color: #141c33;border: 1px solid #81858f;position: absolute;display: none;font-size: 12px;color: #fff;line-height: 20px;padding-left: 5px;padding-right: 5px;}
+  

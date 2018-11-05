@@ -1,0 +1,339 @@
+.flowandpack{width: 96%;margin-left: 3%;margin-top: 20px;}
+
+/*上半部分布局*/
+.top{
+	float: left;
+	width: 100%;
+	height:51%;
+/* 	background-color: blue; */
+}
+
+/*下半部分布局*/
+.bottom{
+ 	margin-top:10px; 
+	float: left;
+	width: 100%;
+  /* 	background-color: #1F2034;  */
+}
+
+/*top left 部分div*/
+.flowTopTen{
+	float: left;
+	height: 100%;
+	width:24%;
+	/* background-color: #1F2034; */
+}
+
+/*top right 部分div*/
+.packMainPush{
+	float: left;
+	height: 100%;
+	width:75%;
+	margin-left:1%;
+	position: relative;
+	/* background-color: #1F2034; */
+}
+
+/*每部分最顶部的div*/
+.flowTopBack{
+	width: 100%;
+	height: 15%;
+	/* background-color: #2B2C3E; */
+	text-align: center;
+  	position: relative;
+}
+/*设置垂直居中的div*/
+.BgRedAndTitle{
+	width:100%;
+	height:25px;
+	margin:auto 0;
+   	left:0px;
+   	top:0px;
+   	bottom:0px;
+   	right:0px;
+   	position: absolute;
+   	text-align: left;
+}
+/*红的色块*/
+ .divBgRed{
+ /* 	height:30px;
+	float:left;
+	width:5px;
+	background-color: #ee456c;	 */
+}
+/*标题部分*/
+.divTitle{
+	margin-left:10px;
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:white;
+	font-size:22px;
+	position: relative;
+}
+
+
+.divhot{
+	position: absolute;
+}
+
+/*设置最底部的详细信息*/
+.detailedDescr{
+	height:25px;
+	line-height:28px;
+	margin-left:20px;
+	float: left;
+	color:#ee456c;
+	font-size:20px;
+	font-weight: bold;
+}
+/*设置流量包数据部分*/
+.flowTopTenData{
+	width: 100%;
+	height:85%;
+	text-align: center;
+	background:rgba(14,23,45,0.6);
+}
+
+.flowdata{
+	text-align:center;
+	margin:0 auto;
+	width:92%;
+	height:10%;
+	cursor:pointer;
+}
+.diviconfont{
+	font-size:14px;
+	height:100%;
+	width:5%;
+	float: left;
+}
+.divpackname{
+	height:100%;
+	margin-left:3%;
+	width:92%;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+.divpackname .namespan{
+	display:block;
+	float:left;
+	height:100%;
+	max-width:89%;
+	overflow: hidden;
+}
+.divpackname .namespan2{
+	display:block;
+	height:100%;
+	float:left;
+	max-width: 92%;
+	overflow: hidden;
+}
+  
+/*设置iconfont的颜色*/
+.color1{color: #ff0000;}
+.color2{color: #ff6d00;}
+.color3{color: #00a048;}
+.color4{color: #0096ff;}
+
+/*设置底部数据部分*/
+.flowPackUnderLine{
+	float: left;
+	height: 85%;
+	width:100%;
+	/* margin-left: 2%; */
+	background:rgba(14,23,45,0.6);
+	position: relative;
+}
+
+/*right DIV*/
+.mainPushPackback{
+	top:15%;
+	width:100%;
+	height: 85%;
+	position: absolute;
+	z-index:2;
+	background:rgba(14,23,45,0.6);
+	/* position:relative;
+	overflow: hidden;  */
+}
+.mainPushPack{
+	top:15%;
+	width:100%;
+	height: 85%;
+	position: absolute;
+	z-index:10;
+	/* position:relative;
+	overflow: hidden;  */
+}
+.echartsdiv{
+	float:left;
+	position: absolute;
+	height: 100%;
+}
+.divechart{
+	height: 100%;
+	float: left;
+}
+/*名字部分*/
+.mainPushName{
+	float: left;
+	width: 100%;
+	height: 10%;
+}
+.divechartName{
+
+	float: left;
+	height: 100%;
+	width: 200px;
+	cursor: pointer;
+}
+
+.active1{
+	color:#1ba6e9 !important;	
+}
+
+/*bottom  DIV*/
+.d3data{
+	top:10%;
+	width:100%;
+	height:90%;
+	float: left;
+	position: relative;
+	overflow: hidden; /*此处需要将溢出框架的图片部分隐藏*/
+}
+/* .divslidershow{
+	float:left;
+	height: 100%;
+	position: absolute;
+} */
+
+/* .divslidershow div{
+	float: left;
+	width: 10%;
+	height: 100%;
+} */
+.sildername{
+	top:2%;
+	float:left;
+	width:100%;
+	height:7%;
+	position:absolute;
+	z-index: 9999999999999 !important;
+}
+.regionname{
+	padding-left:8px;
+	padding-right:8px;
+	margin-left:20px;
+	height:100%;
+	width:auto;
+	color:white;
+	font-size:20px;
+	float:left;
+	cursor: pointer;
+}
+.active{
+	background-color:rgba(25,49,100,0.6)  !important;
+}
+
+.d3data{
+	
+}
+.divcircle{
+	height:100%;
+	width:100%;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+#divcircle0{
+	display: block;
+}
+.divcircle1{
+	height:100%;
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+.active1{
+	display: block ;
+}
+.nromalbusi{
+	width:100% !important;
+	height: 200px !important;
+	margin: auto auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position: absolute;
+	background-image:url('image/normalbusiness.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.popDivTitle{
+	padding:2px;
+	background-color: #09152D;
+	position: absolute;
+	display: none;
+	color:white !important;
+	font-size:24px;
+}
+
+.sp1{
+	font-size:10px !important;
+	color: #00F0FF;
+}
+
+.font11{
+	color:#ED496B;
+	font-size:24px !important;
+	display: block;
+	width: 8%;
+	float:left;
+}
+.font1{
+	font-size:30px !important;
+	color:#ED496B;
+}
+
+.yuzhiinput{
+	text-align:center;
+	width:30px;
+	background:#010101;
+	border:0px;
+	color:white;
+	font-size:20px; 
+}
+/*主推流量包历史数据*/
+.flowpackhsitoty{
+	top:10%;
+	left:20%;
+	width:50%;
+	height:45%;
+	position: absolute;
+	display: none;
+	z-index:9999999999 !important;
+}
+.flowpackhsitoty .shutdown{
+	width:48px;
+	height:48px;
+	top:-20px;
+	right:-20px;
+	cursor:pointer;
+	position: absolute;
+}
+.flowpackhsitoty .historyname{
+	height:70px;
+	line-height:70px;
+	font-size: 24px;
+	letter-spacing:10px;
+	color: #0ff;
+	text-align: center;
+}
+.flowpackhsitoty .historydata{
+	height:370px;
+}
