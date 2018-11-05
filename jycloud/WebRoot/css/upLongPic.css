@@ -1,0 +1,178 @@
+#mainContent {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#conRight {
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+/*µ×²¿Í¼Æ¬µ¼º½*/
+#conLeft {
+	width: 130px;
+	height: 100%;
+	float: left;
+	border-right: 1px dashed #BABABA;
+	box-sizing: border-box;
+}
+
+.theater-thumb {
+	width: 112px;
+	height: 100%;
+	left: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumb-container {
+	width: 100%;
+	white-space: nowrap;
+	position: absolute;
+}
+/*Í¼Æ¬²¿·Ö*/
+.thumbImg {
+	width: 100%;
+	height: 125px;
+	margin-top: 5px;
+	background-size: cover;
+	background-position: center;
+	background-origin: content-box;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.slideImg {
+	width: 110px;
+	height: 100px;
+	float: left;
+}
+
+.slideImg img {
+	height: 100px;
+	width: 112px;
+	left: 1px;
+}
+
+.slideText {
+	height: 20px;
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: center;
+	line-height: 22px;
+	color: #888;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/*  ÓÒ²à²¿·ÖÕ¹Ê¾Í¼Æ¬   */
+#showContent{
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin-left: 15%;
+}
+
+.addNewPic{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 40px;
+	background: #fff !important;
+}
+.deletePhotog {
+	width: 16px;
+	height: 16px;
+	z-index: 999999;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	background-color: #fff;
+}
+
+#operDiv{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#saveAndPreview{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.layui-btn-new{
+	margin-top: 5px;
+}
+
+

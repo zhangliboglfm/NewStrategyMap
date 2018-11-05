@@ -1,0 +1,83 @@
+.main {
+	width: 100%;
+	height: 99%;
+}
+
+.divpath1 {
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #B2B2B2;
+}
+
+.divpath2 {
+	width: 100%;
+}
+
+.worksCount {
+	float: left;
+	width: 200px;
+	height: 100%;
+	line-height: 40px;
+	text-indent: 2ex;
+}
+.worksUpload{
+	float: right;
+	margin-right:25px;
+	margin-top:5px;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	background: #1E9FFF;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+}
+.searchdiv{
+	float: right;
+	margin-right:15px;
+	margin-top:5px;
+	width: 260px;
+	height:30px;
+}
+.search-div1{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.search-div2{
+	float: left;
+	height: 30px;
+	width:50px;
+	line-height: 30px;
+	background: #1E9FFF;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.search-wkinput{
+	float: left;
+	margin-left:5px;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #B2B2B2;
+	box-sizing: border-box;
+	text-indent: 1ex;
+}
+.divpath2-child{
+	float: left;
+	margin-left: 1%;
+	width: 98%;
+}
+.child1{
+	height: 30px;
+	line-height:30px;
+	text-indent: 2ex;
+	border-bottom: 1px solid #B2B2B2;
+}
+.child2{
+	/* background: #FF5722; */
+}
+.child3{
+	height: 40px;
+}	

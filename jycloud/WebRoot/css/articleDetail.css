@@ -1,0 +1,408 @@
+#mainContent {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#conRight {
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+/* ±êÌâ²¿·Ö */
+#conDetail {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#artileTitle {
+	width: 100%;
+	height: 200px;
+	float: left;
+	border-bottom: 1px dashed #BABABA;
+}
+
+#artCover {
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin-top: 20px;
+}
+
+#artDetail {
+	height: 160px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	min-width: 280px;
+}
+
+.titleName {
+	width: 100%;
+	height: 35px;
+	float: left;
+	margin-top: 5px;
+}
+
+.titleName3{
+	height: 20px;
+}
+
+.stateP{
+	width: 80px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: right;
+	line-height: 20px;
+	color: #000;
+}
+
+.stateP2{
+	width: auto;
+	margin: 0;
+	text-indent: 10px;
+	font-size: 14px;
+}
+
+.titleDesc {
+	width: 80px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: right;
+	line-height: 35px;
+	color: #000;
+}
+
+.titleDesc span {
+	visibility: hidden
+}
+
+.articleInfo {
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: right;
+	line-height: 38px;
+	color: #000;
+	width: auto;
+	border-bottom: 1px dashed #BABABA;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.titleName2 {
+	height: 95px;
+}
+
+.articleInfo2 {
+	border: 0;
+}
+
+.phototag {
+	padding: 0 10px;
+	margin-left: 15px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #009688;
+	float: left;
+	position: relative;
+	text-indent: 0px;
+	margin-top: 10px;
+}
+
+.phototag .close-icon {
+	color: #009688;
+	top: -10px;
+	right: -10px;
+	position: absolute;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.phototagNo {
+	border: 0;
+	line-height: 25px;
+}
+
+.divtags2 {
+	width: 100%;
+	height: 120px;
+	max-height: 120px;
+	margin-top: 10px;
+}
+
+.taginputclass {
+	margin-top: 5px !important;
+}
+
+#tagName {
+	width: 200px;
+	cursor: pointer;
+}
+
+.layui-form-checkbox {
+	margin: 5px;
+}
+
+/* ÉãÓ°¼Ò¼°×÷Æ·Õ¹Ê¾ */
+.photogWorks {
+	width: 100%;
+	height: auto;
+	float: left;
+	border-bottom: 1px dashed #BABABA;
+	margin-top: 15px;
+}
+
+.photogWorksTitle {
+	height: 35px;
+	float: left;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: left;
+	line-height: 35px;
+	color: #000;
+	width: 100%;
+	text-indent: 10px;
+}
+
+/* .phoWorksInfo {
+	width: auto;
+	height: auto;
+	float: left;
+	background-color: #F2F2F2;
+} */
+
+
+#artExplain {
+	width: 100%;
+	height: 820px;
+	float: left;
+	margin-top: 15px;
+	position: relative;
+}
+
+.deletePhotog {
+	width: 16px;
+	height: 16px;
+	z-index: 10;
+	position: absolute;
+	right: 18px;
+	top: 18px;
+	background-color: #fff;
+}
+
+.addNewInfo {
+	padding: 15px;
+	float: left;
+	width: 13%;
+	height: 40px;
+	margin-top: 80px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#iptFile2 {
+	display: none;
+}
+
+.info {
+	text-align: center;
+}
+
+/*µ×²¿Í¼Æ¬µ¼º½*/
+#conLeft {
+	width: 130px;
+	height: 100%;
+	float: left;
+	border-right: 1px dashed #BABABA;
+	box-sizing: border-box;
+}
+
+.theater-thumb {
+	width: 112px;
+	height: 100%;
+	left: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumb-container {
+	width: 100%;
+	white-space: nowrap;
+	position: absolute;
+}
+/*Í¼Æ¬²¿·Ö*/
+.thumbImg {
+	width: 100%;
+	height: 125px;
+	margin-top: 5px;
+	background-size: cover;
+	background-position: center;
+	background-origin: content-box;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.slideImg {
+	width: 110px;
+	height: 100px;
+	float: left;
+}
+
+.slideImg img {
+	height: 100px;
+	width: 112px;
+	left: 1px;
+}
+
+.slideText {
+	height: 20px;
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	text-align: center;
+	line-height: 22px;
+	color: #888;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.layui-input-inline {
+	margin-top: 10px;
+}
+
+.layui-input-inline2 {
+	margin-left: 20px;
+}
+
+.cmdlist-container2 img {
+	 max-height:160px; 
+	 max-width:168px; 
+	 width:expression(this.width > 168 && this.height < this.width ? 168: true); 
+	 height:expression(this.height > 160 ? 160: true);
+}
+
+#downandupload {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#saveExit {
+	height: 60px;
+	bottom: 0px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 100;
+}
+
+.cmdlist-text {
+	padding: 10px
+}
+
+.cmdlist-text .info {
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+	overflow: hidden;
+	color: #666;
+}
+
+.workImg {
+	width: 160px;
+	height: 160px;
+	background-size: cover;
+	background-position: center;
+	background-origin: content-box;
+	position: relative;
+	display: inline-block
+}
+
+.layui-btn-new{
+	display: none;	
+}
+.layui-btn-new2{
+	margin-top: 10px;
+}
+
+.radiodiv{width: 450px;height: 50px;margin-left: 25px;}
+.auditdescdiv{width: 450px;height: auto;margin-left: 25px;margin-top: 10px;}
+.auditdescdiv .title{width: 450px;height: 29px;margin-top: 10px;line-height: 29px;}
+.auditdescdiv textarea {
+	width: 100%;
+	height: 150px;
+}
+
+.pglable{float: left;width: 100px;height: 30px;text-align: center;line-height: 30px;border: 1px solid #B2B2B2;margin-left: 10px;margin-top: 5px;cursor: default;}
+.insertlb{float: left;width: 32px;height: 32px;text-align: center;line-height: 32px;margin-left: 10px;margin-top: 5px;cursor: pointer;}
+.removelbbnt{color: #818181;font-size: 18px;float: right;margin-right: 5px;cursor: pointer;}
+.addlbbnt{color: #818181;font-size: 22px;cursor: pointer;}
+.layui-form-checkbox {margin-top: 15px !important;}
+
+.addnewlbdiv{
+	float: left;
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 5px;
+	height: 190px;
+}
+.addnewlbdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.addnewlbdiv input{
+	margin-top: 10px;
+	height: 40px;
+}
+.addnewlbdiv button{float: left;width: 300px;height: 30px;margin-top: 10px;line-height: 30px;margin-left: 75px;}
+
+.checkboxdiv{
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+	height: 250px;
+}
+.checkboxdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 10px;
+	font-weight: bold;
+	float: left;
+}
+.checkboxdiv .choselbdiv{
+	float: left;
+	width: 450px;
+	height: 200px;
+}

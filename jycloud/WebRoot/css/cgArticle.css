@@ -1,0 +1,89 @@
+#mainContent {
+	width: 100%;
+	float: left;
+}
+
+#showContent {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.articleShow {
+	width: 200px;
+	height: 400px;
+	float: left;
+	background-color: #f00;
+}
+
+.cmdlist-container {
+	cursor: pointer;
+}
+
+.tabdiv{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.searchDiv{
+	width: 100%;
+	height: 50px;
+}
+/*ÉÏ´«*/
+.top { /* background-color: red; */
+	width: 100%;
+	margin-top: 15px;
+	height: 50px;
+}
+
+.top .filenamediv {
+	float: left;
+	width: 400px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+.filenamediv input {
+	border-color: #c3c3c3 !important;
+	cursor: pointer !important;
+}
+
+.top .filediv {
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.top .downloaddiv {
+	float: right;
+	margin-top: 5px;
+}
+
+.filediv .file {
+	display: none;
+}
+
+.filediv .bnt {
+	float: left;
+}
+
+.downloaddiv .downloadbnt {
+	float: right;
+}
+
+#divLogInfo a {
+	color: #1E9FFF;
+	text-decoration: underline;
+}
+
+#divLogInfo{
+	width: 100%;
+	margin-top: 15px;
+	height: 600px;
+	border: 1px solid #c3c3c3;
+	background-color: #fff;
+}
+
+.layui-tab-item{height: 100% !important;}

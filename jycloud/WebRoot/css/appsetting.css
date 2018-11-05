@@ -1,0 +1,202 @@
+/*tabΩÁ√Ê…Ë÷√*/
+.layui-tab-item {
+	width: 100%;
+	height: 100%;
+}
+/*«∂»Î◊”“≥√Ê*/
+.layui-tab-item .ifr {
+	width: 100%;
+	height: 100%;
+}
+
+#shadow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#addWindow {
+	width: 1000px;
+	height: 700px;
+	position: absolute;
+	z-index: 110;
+	background-color: #fff;
+	display: none;
+}
+
+#settingTitle{
+	height: 30px;
+	width: 100%;
+	float: left;
+	line-height: 30px;
+	text-indent: 10px;
+	font-size: 14px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	color: #000;
+	margin-top: 5px;
+}
+
+#selectedList{
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+
+.selectTitle{
+	width: 100%;
+	height: 20px;
+	float: left;
+	text-indent: 10px;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	color: #000;
+}
+
+.selectCont{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.phglist{
+	height: 30px;
+	float: left;
+	border: 1px solid #525050;
+	margin-top: 4px;
+	text-indent: 10px;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	color: #525050;
+	margin-left: 20px;
+}
+
+.optionList{
+	width: 100%;
+	height: 250px;
+	float: left;
+}
+
+.optionTitle{
+	width: 100%;
+	height: 20px;
+	float: left;
+	text-indent: 10px;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	color: #000;
+}
+
+.searchDiv{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.listMain{
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+
+.pageDiv{
+	width: 100%;
+	height: 40px;
+	float: left;
+	text-align: center !important;
+}
+
+.nameLabel{
+	width: 100px !important;
+	padding: 0 10px ;
+	color: #525050 !important;
+}
+
+.bntList{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.bnt{
+	float: right;
+	margin-right: 20px;
+	margin-top: 4px;
+}
+
+.layui-box{
+	margin: 4px 0 !important;
+}
+
+.phgmainInfo{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 8px;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.imageClass{
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-left: 15px;
+}
+
+.imageClass img{
+	width: 120px;
+	height: 120px;
+}
+
+.imageTitle{
+	width: 100%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	color: #525050;
+	text-align: center;
+}
+
+.photogStyle{
+	height: 25%;
+	font-size: 14px;
+	font-family: Œ¢»Ì—≈∫⁄;
+	background-color: #0ff;
+}
+
+.fc-time{
+	display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

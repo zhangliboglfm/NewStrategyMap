@@ -1,0 +1,162 @@
+.main{width:100%;height: 100%;overflow: hidden;position: relative;background:#f2f2f2;}
+
+/*左侧信息修改部分*/
+.left{top:0px;bottom:0px;width:300px;left:0px;position: absolute;border-right: 1px solid #A9A9A9;box-sizing:border-box;}
+.left .productIntroduce{width:100%;height: 100%;}
+.left .productIntroduce .title{width:100%;height:7%;font-size: 14px;line-height:calc(7vh);}
+.left .productIntroduce .title .productlabel{width:30%;text-indent:10px;text-align:justify;text-align-last: justify;height:30px;line-height:30px;display: inline-block;}
+.left .productIntroduce .title .photogName{font-size: 16px;text-indent:10px;color: #60B878;display:inline-block;letter-spacing:5px}
+.left .productIntroduce .productFrom{width:100%;height:93%;max-height:93%;}
+/*表单选项*/
+.layui-form .form-item{width:100%;height:35px;line-height: 35px;}
+.layui-form .form-item .productlabel{width:30%;text-indent:10px;text-align:justify;text-align-last: justify;height:30px;line-height:30px;display: inline-block;}
+.layui-form .form-item .productinput{width:65%;text-align:left;height:25px;line-height:25px;display: inline-block;}
+.layui-form .form-item .radioDiv{width:58%;height:25px;line-height:25px;display: inline-block;text-align: center;}
+.layui-form-radio{margin: 0 !important;}
+.layui-form .form-item1{width:100%;}
+.layui-form .form-item1 .productlabel{width:30%;text-indent:10px;height:25px;line-height:25px;text-align:justify;text-align-last: justify;display: inline-block;}
+.layui-form .form-item1 .textAreaDiv{margin-left:8%;width: 90%;height: 100px;}
+/*文章标签*/
+.layui-form .form-item1 .worksLabels{margin-left:8%;width: 90%;height: 120px;max-height:120px;background: white;}
+.worksLabels .ulworksLabels li{list-style: none;}
+.ulworksLabels li .worksLabel{padding: 0 10px;margin-left:10px;height:20px;line-height: 20px;border: 1px solid #60B878;float: left;position: relative;margin-top:10px;}
+.ulworksLabels li .worksLabel .close-icon{color:#60B878;top:-10px;right:-10px;position: absolute;font-size:18px;cursor: pointer; }
+.worksLabel1{padding: 0 10px;margin-left:10px;height:22px;line-height: 22px;float: left;position: relative;margin-top:10px;}
+/*保存按钮*/
+.productIntroduce .form-item2{width:100%;height:40px;line-height: 40px;margin-top: 5px;}
+/*标签池*/
+.divLabels{width:100%;height:120px;max-height: 120px;margin-top: 10px;}
+/*复选框*/
+.layui-form-checkbox{margin:5px;}
+.divbutton{height:30px;width:100%;margin-top:20px;text-align: left;}
+.taginputclass{margin-top:5px !important;}
+/*自定义标签*/
+.userdefined{height:30px;line-height: 30px;margin:5px;width:70px;color:white;background: #60B878;border-radius:2px;text-align: center;cursor: pointer;}
+
+/*修改layui的部分*/
+.divbutton .layui-btn{height:25px !important;line-height:25px !important;background:#5FB878 !important;}
+.layui-layer-btn{text-align: center !important;}
+.layui-layer-btn .layui-layer-btn0{background:#60B878 !important; border-color: #60B878 !important;}
+.layui-layer-btn .layui-layer-btn1{background:#60B878 !important; border-color: #60B878 !important;color:white !important;}
+
+/*审核状态*/
+.examineStatus{margin-top:5px;width: 100%;height:120px;}
+.examineStatus .form-item .productlabel{width:30%;text-indent:10px;text-align:justify;text-align-last: justify;height:30px;line-height:30px;display: inline-block;}
+.examineStatus .form-item .onestatus{width: 50%;float: left;}
+.examineStatus .form-item .onestatus .title{display: inline-block;width:50%;text-align: right;}
+.examineStatus .form-item .onestatus .textStatus{color:#60B878;letter-spacing:2px;text-indent:2px;display: inline-block;width:50%;text-align: left;}
+/*审核按钮*/
+.examineStatus .form-item2{width:100%;height:40px;line-height: 40px;margin-top: 5px;}
+
+
+/*中间大图显示区域*/
+.top{top:0px;bottom:110px;left:300px;right:0px;position: absolute; }
+.top .bigImgTitle{width:100%;height: 50px;position: relative;}
+.top .bigImgTitle .fullScreen{font-size:24px;cursor: pointer;position:absolute;top:12px;left:30px;color:#999999;}
+.top .DivUploadImg{position: absolute;right: 30px;height:40px;width:30px;line-height: 40px;top:3px;cursor: pointer;color:#999999;}
+.top .bigImgTitle .imgNum{height:100%;line-height:50px;position:absolute;width: 200px;left:calc(50% - 100px);text-align: center;}
+.top .bigImgTitle .imgNum .curNum{font-size:20px;color:#999999;width:80px;text-align: right;padding-right:5px;border: 0px;background: #F2F2F2;}
+.top .bigImgTitle .imgNum .SegmentingLine{font-size: 20px;color:#999999; }
+.top .bigImgTitle .imgNum .allNum{font-size: 20px;color:#999999; }
+.top .divImg{width: 100%;height:calc(100% - 50px);position: relative;}
+.top .divImg .bigImg{position: absolute;top: 0; bottom: 0;left: 0;right: 0;max-width: 100%;max-height: 100%;margin: auto;}
+
+/*上下翻页*/
+.top .DivPreImg{position: absolute;left: 10px;height:40px;width:30px;line-height: 40px;top:calc(50% - 40px);cursor: pointer;color:#999999;}
+.top .DivNextImg{position: absolute;right: 10px;height:40px;width:30px;line-height: 40px;top:calc(50% - 40px);cursor: pointer;color:#999999;}
+
+
+/*底部图片导航*/
+.bottom{left:300px;bottom:0px;right:0px;height:110px;position: absolute;}
+.bottom .theater-thumb{width:100%;height:106px;margin-top:2px;overflow: hidden;position: relative;}
+.bottom .theater-thumb .thumb-container{height:70px;margin-top:18px; white-space:nowrap;position: absolute;}
+/*图片部分*/
+.thumb-container .thumbImg{width: 106px;height: 70px;margin: 0 5px;background-size: cover;background-position: center;background-origin:content-box;position: relative;display: inline-block;}
+.thumb-container .thumbImg:AFTER {content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;background:rgba(0,0,0,0.8);cursor: pointer;}
+.thumb-container .show:AFTER{background:rgba(0,0,0,0) !important;border: 2px solid #60B878;box-sizing:border-box;}
+
+/*全屏显示图片*/
+.main .fullScreenDiv{width:100%;height:100%;position: absolute;z-index: 99999999;background-color: rgba(0,0,0,0.9);display: none;overflow: auto;vertical-align:middle;text-align:center;margin: auto;}
+.fullScreenDiv .DivPreImg{position: fixed;left: 30px;height:40px;width:30px;line-height: 40px;top:calc(50% - 40px);cursor: pointer;color:#fff;background-color: #000;}
+.fullScreenDiv .DivNextImg{position: fixed;right: 30px;height:40px;width:30px;line-height: 40px;top:calc(50% - 40px);cursor: pointer;color:#fff;background-color: #000;}
+.fullScreenDiv .DivCloseImg{position: fixed;right: 30px;height:40px;width:30px;line-height: 40px;top:10px;cursor: pointer;color:#fff;background-color: #000;}
+.fullScreenDiv .DivZoomImg{position: fixed;right: 80px;height:40px;width:30px;line-height: 40px;top:10px;cursor: pointer;color:#fff;background-color: #000;}
+.fullScreenDiv .fullbigImg{vertical-align:middle;}
+.fullbigImg2{ vertical-align:middle;
+
+    max-width:100%;
+
+    max-height:100%;
+
+    width:auto;
+
+    height:auto;}
+.fullScreenDiv span{
+	display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+body .layer-msg .layui-layer-content{background-color: #fff;color: #000;text-align: center;}
+
+/*标签弹出层*/
+.checkboxdiv{
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+	height: 250px;
+}
+.checkboxdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 10px;
+	font-weight: bold;
+	float: left;
+}
+.checkboxdiv .choselbdiv{
+	float: left;
+	width: 450px;
+	height: 200px;
+}
+.layui-form-checkbox {margin-top: 15px !important;}
+
+.addnewlbdiv{
+	float: left;
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 5px;
+	height: 190px;
+}
+.addnewlbdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.addnewlbdiv input{
+	margin-top: 10px;
+	height: 40px;
+}
+.addnewlbdiv button{float: left;width: 300px;height: 30px;margin-top: 10px;line-height: 30px;margin-left: 75px;}
+
+.radiodiv{width: 450px;height: 50px;margin-left: 25px;}
+.auditdescdiv{width: 450px;height: auto;margin-left: 25px;margin-top: 10px;}
+.auditdescdiv .title{width: 450px;height: 29px;margin-top: 10px;line-height: 29px;}
+.auditdescdiv textarea {
+	width: 100%;
+	height: 150px;
+}
+
+

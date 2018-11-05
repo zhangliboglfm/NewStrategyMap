@@ -1,0 +1,373 @@
+* {
+    font-family:'Microsoft YaHei','SimSun';
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style: none;
+}
+html {
+    background-color: #f2f2f2;
+    color: #666;
+}
+label{
+	font-weight: bold !important;
+}
+#picmanage{
+	position:absolute;
+	overflow:hidden;
+	z-index: 1;
+	overflow:hidden;
+}
+#background{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.3);
+	z-index:2;
+	display: none;
+}
+#state{
+	position:absolute;
+	height:80%;
+	width:90%;
+	top:10%;
+	left:5%;
+	z-index: 3;
+	background-color: white;
+	border: 1px solid;
+	display: none;
+}
+.state2{
+	display:flex;
+    align-items:right;
+    justify-content:center;
+}
+.state3{
+	float: left;
+}
+.state4{
+	float: left;
+	margin-top:5%;
+	width:50%;
+}
+.state5{
+	margin-top:5%;
+	width:100%;
+}
+#state img{
+	 position: absolute;
+     top:50%; 
+     transform: translate(-50%,-50%);
+     max-width: 80%;
+     max-height: 80%;
+}
+#imgul img{
+	width: auto;
+	height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#more{
+	position:absolute;
+	height:65%;
+	width:50%;
+	top:15%;
+	left:20%;
+	z-index: 3;
+	background-color: white;
+	border: 1px solid;
+	display: none;
+}
+#filmmore{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+#reason{
+	position:absolute;
+	height:50%;
+	width:50%;
+	top:15%;
+	left:20%;
+	z-index: 3;
+	background-color: white;
+	border: 1px solid;
+	display: none;
+}
+.screen{
+	width:100%;
+	height:50%;
+	border: 1px solid black;
+}
+.content{
+	width:100%;
+	height:50%;
+}
+.screen2{
+	width:100%;
+	height:12%;
+	border-bottom: 1px solid #DDDDDD;
+}
+.screen3{
+	width:25%;
+	height:100%;
+	float: left;
+	display:flex;
+    align-items:center;
+}
+.screen4{
+	float: left;
+	margin-left: 5px;
+}
+.bsbutton{
+	float: left;
+	width:50%;
+	height:100%;
+}
+#r1,#r2,#r3{
+	float: left;
+	margin-top: 5%
+}
+.content3{
+	float: left;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.content4{
+	float: left;
+}
+.size{
+	width:70%;
+}
+.ath{
+	margin-left: 5px;
+}
+
+.imgcontent{width:100%;height:100%;}
+.bottom{width: 100%;text-align: center;}
+.pageturn{margin:0 auto;height:30px;margin-top: 10px;width:405px;}
+.divpage{width:50px;height: 25px;text-align: center;line-height: 25px;background: #3388FF;float: left;font-size:10px;margin-top:2.5px;margin-left: 5px;cursor: pointer;color: white;border-radius:5px;}
+.PageNums{width:80px;height: 30px;text-align: center;line-height: 30px;margin-left:5px;float: left;font-size:16px;color:#2083E8}
+.turnNum{float: left;height: 18px;margin-top:4px;margin-left:5px;;width:40px;line-height: 18px;text-align: center;}
+#more ul li{
+	list-style: none;width:10%;height: 10%;float: left;position: relative;
+}
+#flimmore ul li{
+	list-style: none;width:10%;height: 10%;float: left;position: relative;
+}
+#reason ul li{
+	list-style: none;width:25%;height: 10%;float: left;position: relative;top:50px;
+}
+#cts #imgul2 li{
+	width:100%;
+	position: relative;
+}
+#cts #imgul2 li div{
+	width:100%;
+	height:80%;
+	margin-bottom:10px;
+}
+#imgul2 img{
+	width: auto;
+	height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#imgul2 div{
+	margin-left: 5px;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#imgdiv{
+	height:100%;
+	width:100%;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+	
+}
+#imgdiv img{
+	width: auto;
+	height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.ctstr{
+	display: none;
+}
+ul{width: 100%;height: 100%;padding: 0}
+.imgcontent ul li {list-style: none;width:24.5%;height: 100%;float: left;position: relative;border: 1px solid #DDDDDD;}
+.imgcontent ul li:nth-child(1) {margin:0 !important;}
+.imgcontent ul li:nth-child(2) {margin-top:0 !important;}
+.imgcontent ul li:nth-child(3) {margin-top:0 !important;}
+.imgcontent ul li:nth-child(4) {margin-left:0 !important;}
+.imgcontent ul li:nth-child(7) {margin-left:0 !important;}
+.imgcontent ul li img{
+	height:100%;
+	width:50%;
+}
+.imgcontent ul li input{
+	position: absolute;
+	right:2px;
+	top:2px;
+}
+table{
+	table-layout: fixed;word-wrap: break-word;text-align:justify;text-justify:inter-ideograph;font-size: 15px;
+}
+#imgul table tr td{
+	max-width: 100px;overflow: hidden; text-overflow:ellipsis;white-space: nowrap;
+}
+#imgul table{
+	margin: auto;
+}
+#Label{
+	
+}
+.pglable{float: left;width: 100px;height: 30px;text-align: center;line-height: 30px;border: 1px solid #717171;margin-left: 10px;margin-top: 5px;cursor: default;}
+.pglable .removelbbnt{color: #818181;font-size: 18px;float: right;margin-right: 5px;cursor: pointer;}
+.photolabel{width:43px;height:30px;line-height:30px;margin-top:5px;display: inline-block;text-align: right;margin-right: 7px;}
+.phototags{width:300px;margin-left:30px;max-width:300px;}
+.divtags{
+	width:100%;height:120px;max-height: 120px;margin-top: 10px;	
+}
+.labelhide{
+	display:none;
+	height:30%;
+	text-align: left;
+}
+.imginfodiv{
+	text-align:left;
+	overflow-y: scroll;
+	margin-top:1%;
+	max-height: 85%;
+}
+.imginfodiv table{
+	margin-left: 3%;
+}
+#cscreen{
+	width:6%;
+}
+.getdiv{
+	height:66%;
+}
+.phototag .close-icon{color:#009688;top:-10px;right:-10px;position: absolute;font-size:18px;cursor: pointer; }
+.phototag{padding: 0 10px;margin-left:10px;height:20px;line-height: 20px;border: 1px solid #009688;float: left;position: relative;text-indent:0px;margin-top:10px;}
+.buttonedit{
+	width:40%;
+}
+#imginfo{
+	width:34%;height:100%;float: left;
+}
+.sedit{
+	text-align: center;height:20%;width:100%;
+}
+.screen4bt{
+	border:0px;background-color:transparent;
+	width:100%;
+}
+.layui-form-switch {
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    min-width: 35px;
+    margin-top: 0px !important;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    border-image: initial;
+    border-radius: 20px;
+    transition: all 0.1s linear 0s;
+}
+.state2{
+	width:100%;height:5%;border-bottom: 1px solid;background-color: #009688
+}
+.ezchinfodiv{width: 300px;height: 30px;margin-left: 10px;margin-top: 0px;}
+.ezchinfodiv div.lb{float: left;width: 60px;height: 20px;line-height: 30px;font-size: 14px;width: 100px;text-align: left;font-weight: bold;}
+.ezchinfodiv div.lb2{float: left;width: 100px;height: 20px;line-height: 30px;font-size: 14px;width: 200px;text-align: left;}
+
+.ezchinfodiv div.tips{float: left;max-width: 100px;margin-left: 10px;height: 30px;line-height: 30px;font-style: italic;color: red;font-size: 12px;cursor: default !important;}
+
+.checkboxdiv{
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+	height: 250px;
+}
+.checkboxdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 10px;
+	font-weight: bold;
+	float: left;
+}
+.checkboxdiv .choselbdiv{
+	float: left;
+	width: 450px;
+	height: 200px;
+}
+.checkboxdiv .checkboxbottom{
+	float: left;
+	width: 450px;
+	height: 50px;
+}
+.checkboxdiv .layui-form-checkbox {margin-top: 15px !important;}
+
+.addnewlbdiv{
+	float: left;
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 5px;
+	height: 150px;
+}
+.addnewlbdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.addnewlbdiv input{
+	margin-top: 10px;
+	height: 40px;
+}
+.addnewlbdiv button{float: left;width: 300px;height: 30px;margin-top: 10px !important;line-height: 30px;margin-left: 75px;}
+
+.searchdiv{
+	float: left;
+	width: 450px;
+	margin-left: 25px;
+	margin-top: 5px;
+	height: 60px;
+}
+.searchdiv .titlediv{
+	width: 450px;
+	height: 29px;
+	text-align: left;
+	font-size: 14px;
+	border-bottom: 1px solid #b7b7b7;
+	line-height: 29px;
+	text-indent: 2ex;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.searchdiv input{
+	margin-top: 10px;
+	height: 40px;
+}
+.searchdiv button{float: left;width: 300px;height: 30px;margin-top: 10px !important;line-height: 30px;margin-left: 75px;}

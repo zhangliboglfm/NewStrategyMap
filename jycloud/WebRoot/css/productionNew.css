@@ -1,0 +1,379 @@
+#mainTitle {
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+#authorName {
+	width: auto;
+	height: 40px;
+	float: left;
+	font-size: 18px;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight: bold;
+	margin-left: 7px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#adjustRank {
+	width: auto;
+	height: 30px;
+	margin-top: 5px;
+	float: right;
+	margin-right: 20px;
+}
+
+#mainContent {
+	width: 100%;
+	float: left;
+	background-color: #D8D8D8;
+}
+
+.zuopinInfo {
+	background-color: #fff;
+	float: left;
+	margin: 5px;
+}
+
+.zuopinLeft {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+.zuopinRight {
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+}
+
+.imageDiv {
+	height: 60%;
+	margin: 5px;
+	float: left;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.zuopinImage2 {
+	width: 100%;
+	height: 100%;
+}
+
+.imageDesc {
+	height: 8%;
+	float: left;
+	margin-left: 4px;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.tagDiv {
+	float: left;
+	margin-top: 10px;
+}
+
+.phototags {
+	width: 100%;
+	max-height: 110px;
+}
+
+.phototag {
+	padding: 0 10px;
+	margin-left: 15px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #009688;
+	float: left;
+	position: relative;
+	text-indent: 0px;
+	margin-top: 10px;
+}
+
+.phototag .close-icon {
+	color: #009688;
+	top: -10px;
+	right: -10px;
+	position: absolute;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.photolabel {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	text-align: right;
+}
+
+#shandow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.7); 
+	z-index: 100;
+	display: none;
+}
+
+#searchKuang{
+	width: 250px;
+	height: 140px;
+	position: absolute;
+	background-color: #fff;
+	z-index: 110;
+	display: none;
+}
+
+#kuangTitle{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#titleText{
+	width: 130px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+	line-height: 40px;
+	font-size: 16px;
+	font-family: Î¢ÈíÑÅºÚ;
+	color: #000;
+}
+
+#titleClose{
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+#kuangBody{
+	width: 100%;
+	height: 60px;
+	float: left;
+	position: relative;
+}
+
+#keyWord{
+	width: 230px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #EEEEEE;
+	font-size: 15px;
+	font-family: Î¢ÈíÑÅºÚ;
+	color: #000;
+}
+
+#kuangBottom{
+	width: 100%;
+	height: 38px;
+	float: left;
+}
+
+.clickButton{
+	width: 50px;
+	height: 30px;
+	float: right;
+	border: 1px solid #D2D2D2;
+	margin-right: 10px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	color: #000;
+	cursor: pointer;
+}
+
+.clickButton2{
+	background-color: #35A9FF;
+}
+
+.photoinput {
+	width: 100px;
+	height: 20px;
+	line-height: 30px;
+	margin-top: 5px;
+	display: inline-block;
+	text-align: center;
+	border: 0px;
+	border-bottom: 1px solid gray;
+}
+
+.zpDetail{
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+
+.zuopinjiedu{
+	text-decoration: underline;
+	line-height: 30px;
+	text-align: left;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	margin-top: 20px;
+	color: #00f;
+	cursor: pointer;
+}
+
+#iframeDiv{
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	background-color: #fff;
+	z-index: 110;
+	display: none;
+}
+
+#iframe{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#closeIframe{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.shenheTijiao{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.shtjClass{
+	width: 100%;
+	height: 100%;
+}
+
+.shtjClass2{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#commitInfo{
+	width: 100px;
+	height: 40px;
+	float: left;
+	background-color: #35A9FF;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#yijianDiv{
+	width: 100%;
+	height: 30%;
+	float: left;
+	min-height: 110px;
+}
+
+.shenheB{
+	width: 100px;
+	height: 40px;
+	float: left;
+	background-color: #35A9FF;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	margin-top: 10px;
+	cursor: pointer;
+	float: left;
+}
+
+#labelList{
+	width: 230px;
+	height: 160px;
+	position: absolute;
+	border: 1px solid #D2D2D2;
+	left: 10px;
+	top: 56px;
+	z-index: 120;
+	background-color: #fff;
+	display: none;
+}
+
+.classify{
+	width: 230px;
+	height: 40px;
+	float: left;
+	border-bottom: 1px solid #D2D2D2;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Î¢ÈíÑÅºÚ;
+	cursor: pointer;
+}
+
+.classify:HOVER {
+	background-color: #1E9FFF;
+}
+
+.classify1{
+	background-color: #1E9FFF;
+}
+
+#divtags{
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+
+#divtags2{
+	width:100%;height:120px;max-height: 120px;margin-top: 10px;	
+}
+
+#tagName{
+	width: 200px;
+	cursor: pointer;
+}
+
+#bntDiv{
+	width: 100px;
+	float: left;
+}
+
+#inputDiv{
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.file{
+	display: none;
+}
+
+#uploadBnt{
+	margin-top: 10px;
+}
+
+.layui-form-checkbox{
+	margin: 5px;
+}
+
+.iptFile2{
+	display: none;
+}
+
+
+

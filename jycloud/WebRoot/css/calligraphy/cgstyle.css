@@ -1,0 +1,50 @@
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after{border-bottom-color: #B2B2B2}
+
+.maindiv{
+	width: 100%;
+}
+.maindiv .tabdiv{
+	width: 100%;
+	height: 760px;
+	position: relative;
+}
+.maindiv .tabdiv .layui-tab-title{}
+.layui-tab-item{height: 100% !important;}
+.layui-tab-item iframe{height: 100%;width: 100%;border: 0;}
+.layui-tab-item img{width: auto;height: auto;}
+.maindiv .tabdiv .rightdiv{
+	margin-top: 0px;
+	width: 200px;
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	position: absolute;
+	z-index: 99999;
+	right: 0px;
+}
+.maindiv .tabdiv .rightdiv i{color: #009688;font-size: 24px;cursor: pointer;}
+
+.maindiv .tabdiv .rightdiv #iptWordFile {display: none;}
+.maindiv .tabdiv .rightdiv #iptPicFile {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

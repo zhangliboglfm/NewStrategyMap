@@ -1,0 +1,46 @@
+.top{
+	/* background-color: red; */
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 15px;
+	height: 50px;
+}
+.top .filenamediv{
+	float: left;
+	width: 400px;
+	height: 30px;
+	margin-top: 5px;
+}
+.filenamediv input{
+	border-color: #c3c3c3 !important;
+	cursor: pointer !important;
+}
+.top .filediv{
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.top .downloaddiv{
+	float: right;
+	margin-top: 5px;
+}
+.filediv .file{
+	display: none;
+}
+.filediv .bnt{
+	float: left;
+}
+.downloaddiv .downloadbnt{
+	float: right;
+}
+.info{
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 10px;
+	height: 600px;
+	border: 1px solid #c3c3c3;
+}
+#divLogInfo a{
+	color: #1E9FFF;
+	text-decoration: underline;
+}

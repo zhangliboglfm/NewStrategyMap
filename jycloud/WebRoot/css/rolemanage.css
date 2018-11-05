@@ -1,0 +1,24 @@
+.layui-btn-normal{
+	font-size:12px;
+	height:22px;
+	line-height:22px;
+	padding:0.5px;
+	width:72px;
+}
+.layui-btn-disabled{
+	font-size:12px;
+	height:22px;
+	line-height:22px;
+	padding:0.5px;
+	width:38px;
+}
+.layui-btn-warm{
+	font-size:12px;
+	height:22px;
+	line-height:22px;
+	padding:0.5px;
+	width:72px;
+}
+.layui-table-tool{
+	display: none !important;
+}

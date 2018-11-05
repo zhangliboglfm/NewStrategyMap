@@ -1,0 +1,70 @@
+.cmdlist-container{
+	/* max-width: 300px; 
+	max-height: 360px;*/
+	border: 1px #eee solid !important;
+}
+/* .cmdlist-container img{
+	height: 300px;
+	min-width: 120px;
+	min-height: 120px;
+	max-width: 300px;
+	max-height: 300px;
+} */
+.searchdiv{
+	height: 60px;
+	background:#fff;
+	z-index:1;
+}
+.searchdiv .layui-inline{
+	margin-top: 10px;
+}
+.searchdiv .layui-inline .layui-form-label{
+	width: auto !important;
+}
+.searchdiv .sortdiv{float: right !important; margin-right: 10px;}
+.searchdiv .sortdiv .sortbnt{
+	float: left;
+	height: 30px;
+	width: 90px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #E4E4E4;
+	margin-left: 10px;
+	cursor: pointer;
+	border: 1px solid #C3C3C3;
+	text-align: center;
+	line-height: 30px;
+}
+.curbg{
+	background-color: #009688 !important;
+	color: #fff !important;
+}
+.searchdiv .sortdiv .sortbnt i{font-size: 20px;}
+
+.searchdiv .sortdiv .auditbnt{
+	float: left;
+	height: 30px;
+	width: 90px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #E4E4E4;
+	margin-left: 10px;
+	cursor: pointer;
+	border: 1px solid #C3C3C3;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+#photoglist .cmdlist-container{
+	cursor: pointer;
+}
+#photoglist,#footpage{
+	margin-left:5px;
+	margin-right:10px;
+}
+.cmdlist-text .cgworksnum{
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+}
